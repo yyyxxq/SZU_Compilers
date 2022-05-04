@@ -6,7 +6,7 @@ void split_gramma(std::string &s,std::string &pre,std::string &suf){
 	int flag=0;
 	for(int i=0;i<n;i++){
 		if(s[i]=='-'||s[i]=='>')flag=1;
-		if(s[i]=='-'||s[i]=='>')continue;
+		if((s[i]=='-'||s[i]=='>'))continue;
 		if(flag==0)pre=pre+s[i];
 		if(flag==1)suf=suf+s[i];
 	}
@@ -62,17 +62,22 @@ bool check(std::string &s,std::string &t,int st,int m){
 }
 int dfs(std::string s){
 	if(find_solution[s]==-1)return 0;
-	//std::cout<<s<<std::endl;
+	std::cout<<s<<std::endl;
+	find_solution[s]=-1;
 	if(s.length()>end.length())return 0;
 	if(s==end){
 		ans.push_back(s);
 		return 1;
 	}
 	int n=s.length();
+//	for(int i=0;i<n;i++){
+//		if(s[i]>='A'&&s[i]<='Z')break;
+//		if(s[i]!=end[i])return 0;
+//	}//std::cout<<s<<std::endl;
 	for(int i=0;i<gramma_vector.size();i++){
 		Gramma* gr=&gramma_vector[i];
 		int m=gr->start.length();
-		for(int j=0;j<n;j++){
+		for(int j=n-1;j>=0;j--){
 			if(check(s,gr->start,j,m)){
 				for(int k=0;k<gr->to.size();k++){
 					std::string tmp=s;
@@ -98,9 +103,9 @@ int main(int argc,char *argv[]){
 		Gramma tmp;
 		split_gramma(s,tmp.start,suf);
 		split_end(suf,&tmp);
-		//for(int i=0;i<tmp.to.size();i++)std::cout<<tmp.to[i]<<" ";
-		//std::cout<<std::endl;
-		//std::cout<<pre<<" "<<suf<<std::endl;
+		for(int i=0;i<tmp.to.size();i++)std::cout<<tmp.to[i]<<" ";
+	//	std::cout<<std::endl;
+		std::cout<<pre<<" "<<suf<<std::endl;
 		if(!check1(&tmp))level=std::min(level,0);
 		if(!check2(&tmp))level=std::min(level,1);
 		if(!check3(&tmp))level=std::min(level,2);

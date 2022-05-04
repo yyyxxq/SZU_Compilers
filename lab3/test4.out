@@ -1,0 +1,8112 @@
+type:VARIABLE
+token: namespace
+line:1 11
+
+type:VARIABLE
+token: lexer
+line:2 1
+
+type:PUNCTUATOR
+token: {
+line:3 1
+
+type:KEYWORD
+token: void
+line:3 10
+
+type:VARIABLE
+token: Trie
+line:3 16
+
+type:PUNCTUATOR
+token: :
+line:3 18
+
+type:PUNCTUATOR
+token: :
+line:3 20
+
+type:VARIABLE
+token: AddString
+line:3 30
+
+type:PUNCTUATOR
+token: (
+line:3 32
+
+type:VARIABLE
+token: std
+line:3 36
+
+type:PUNCTUATOR
+token: :
+line:3 38
+
+type:PUNCTUATOR
+token: :
+line:3 40
+
+type:VARIABLE
+token: string
+line:3 47
+
+type:VARIABLE
+token: new_word
+line:3 57
+
+type:PUNCTUATOR
+token: )
+line:4 1
+
+type:PUNCTUATOR
+token: {
+line:5 1
+
+type:KEYWORD
+token: int
+line:5 13
+
+type:VARIABLE
+token: n
+line:5 16
+
+type:PUNCTUATOR
+token: =
+line:5 19
+
+type:VARIABLE
+token: new_word
+line:5 29
+
+type:PUNCTUATOR
+token: .
+line:5 31
+
+type:VARIABLE
+token: length
+line:5 38
+
+type:PUNCTUATOR
+token: (
+line:5 40
+
+type:PUNCTUATOR
+token: )
+line:5 42
+
+type:PUNCTUATOR
+token: ;
+line:6 1
+
+type:KEYWORD
+token: int
+line:6 13
+
+type:VARIABLE
+token: trie_index
+line:6 25
+
+type:PUNCTUATOR
+token: =
+line:6 28
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:6 31
+
+type:PUNCTUATOR
+token: ;
+line:7 1
+
+type:KEYWORD
+token: for
+line:7 13
+
+type:PUNCTUATOR
+token: (
+line:7 16
+
+type:KEYWORD
+token: int
+line:7 20
+
+type:VARIABLE
+token: i
+line:7 23
+
+type:PUNCTUATOR
+token: =
+line:7 26
+
+type:INTEGER_CONSTANT
+token: 0
+line:7 29
+
+type:PUNCTUATOR
+token: ;
+line:7 31
+
+type:VARIABLE
+token: i
+line:7 34
+
+type:PUNCTUATOR
+token: <
+line:7 37
+
+type:VARIABLE
+token: n
+line:7 40
+
+type:PUNCTUATOR
+token: ;
+line:7 42
+
+type:VARIABLE
+token: i
+line:7 45
+
+type:PUNCTUATOR
+token: ++
+line:7 48
+
+type:PUNCTUATOR
+token: )
+line:8 1
+
+type:PUNCTUATOR
+token: {
+line:9 1
+
+type:KEYWORD
+token: char
+line:9 18
+
+type:VARIABLE
+token: c
+line:9 21
+
+type:PUNCTUATOR
+token: =
+line:9 24
+
+type:VARIABLE
+token: new_word
+line:9 34
+
+type:PUNCTUATOR
+token: [
+line:9 36
+
+type:VARIABLE
+token: i
+line:9 38
+
+type:PUNCTUATOR
+token: ]
+line:9 40
+
+type:PUNCTUATOR
+token: ;
+line:10 1
+
+type:KEYWORD
+token: if
+line:10 16
+
+type:PUNCTUATOR
+token: (
+line:10 19
+
+type:VARIABLE
+token: node
+line:10 24
+
+type:PUNCTUATOR
+token: [
+line:10 26
+
+type:VARIABLE
+token: trie_index
+line:10 37
+
+type:PUNCTUATOR
+token: ]
+line:10 39
+
+type:PUNCTUATOR
+token: .
+line:10 41
+
+type:VARIABLE
+token: point
+line:10 47
+
+type:PUNCTUATOR
+token: [
+line:10 49
+
+type:VARIABLE
+token: c
+line:10 51
+
+type:PUNCTUATOR
+token: ]
+line:10 53
+
+type:PUNCTUATOR
+token: ==
+line:10 57
+
+type:INTEGER_CONSTANT
+token: 0
+line:10 60
+
+type:PUNCTUATOR
+token: )
+line:11 1
+
+type:PUNCTUATOR
+token: {
+line:12 1
+
+type:VARIABLE
+token: node
+line:12 22
+
+type:PUNCTUATOR
+token: .
+line:12 24
+
+type:VARIABLE
+token: push_back
+line:12 34
+
+type:PUNCTUATOR
+token: (
+line:12 36
+
+type:VARIABLE
+token: trie_empty_node
+line:12 52
+
+type:PUNCTUATOR
+token: )
+line:12 54
+
+type:PUNCTUATOR
+token: ;
+line:13 1
+
+type:VARIABLE
+token: size
+line:13 22
+
+type:PUNCTUATOR
+token: ++
+line:13 25
+
+type:PUNCTUATOR
+token: ;
+line:14 1
+
+type:VARIABLE
+token: node
+line:14 22
+
+type:PUNCTUATOR
+token: [
+line:14 24
+
+type:VARIABLE
+token: trie_index
+line:14 35
+
+type:PUNCTUATOR
+token: ]
+line:14 37
+
+type:PUNCTUATOR
+token: .
+line:14 39
+
+type:VARIABLE
+token: point
+line:14 45
+
+type:PUNCTUATOR
+token: [
+line:14 47
+
+type:VARIABLE
+token: c
+line:14 49
+
+type:PUNCTUATOR
+token: ]
+line:14 51
+
+type:PUNCTUATOR
+token: =
+line:14 54
+
+type:VARIABLE
+token: size
+line:14 60
+
+type:PUNCTUATOR
+token: ;
+line:15 1
+
+type:PUNCTUATOR
+token: }
+line:16 1
+
+type:VARIABLE
+token: trie_index
+line:16 24
+
+type:PUNCTUATOR
+token: =
+line:16 27
+
+type:VARIABLE
+token: node
+line:16 33
+
+type:PUNCTUATOR
+token: [
+line:16 35
+
+type:VARIABLE
+token: trie_index
+line:16 46
+
+type:PUNCTUATOR
+token: ]
+line:16 48
+
+type:PUNCTUATOR
+token: .
+line:16 50
+
+type:VARIABLE
+token: point
+line:16 56
+
+type:PUNCTUATOR
+token: [
+line:16 58
+
+type:VARIABLE
+token: c
+line:16 60
+
+type:PUNCTUATOR
+token: ]
+line:16 62
+
+type:PUNCTUATOR
+token: ;
+line:17 1
+
+type:PUNCTUATOR
+token: }
+line:18 1
+
+type:VARIABLE
+token: node
+line:18 14
+
+type:PUNCTUATOR
+token: [
+line:18 16
+
+type:VARIABLE
+token: trie_index
+line:18 27
+
+type:PUNCTUATOR
+token: ]
+line:18 29
+
+type:PUNCTUATOR
+token: .
+line:18 31
+
+type:VARIABLE
+token: endpos
+line:18 38
+
+type:PUNCTUATOR
+token: =
+line:18 41
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:18 44
+
+type:PUNCTUATOR
+token: ;
+line:19 1
+
+type:PUNCTUATOR
+token: }
+line:20 1
+
+type:KEYWORD
+token: void
+line:20 10
+
+type:VARIABLE
+token: KeywordTriePrepare
+line:20 30
+
+type:PUNCTUATOR
+token: (
+line:20 32
+
+type:PUNCTUATOR
+token: )
+line:21 1
+
+type:PUNCTUATOR
+token: {
+line:22 1
+
+type:VARIABLE
+token: freopen
+line:22 17
+
+type:PUNCTUATOR
+token: (
+line:22 19
+
+type:STRING_CONSTANT
+token: "keyword.txt"
+line:22 33
+
+type:PUNCTUATOR
+token: ,
+line:22 35
+
+type:STRING_CONSTANT
+token: "r"
+line:22 40
+
+type:PUNCTUATOR
+token: ,
+line:22 42
+
+type:VARIABLE
+token: stdin
+line:22 49
+
+type:PUNCTUATOR
+token: )
+line:22 51
+
+type:PUNCTUATOR
+token: ;
+line:23 1
+
+type:VARIABLE
+token: std
+line:23 13
+
+type:PUNCTUATOR
+token: :
+line:23 15
+
+type:PUNCTUATOR
+token: :
+line:23 17
+
+type:VARIABLE
+token: string
+line:23 24
+
+type:VARIABLE
+token: word
+line:23 30
+
+type:PUNCTUATOR
+token: ;
+line:24 1
+
+type:KEYWORD
+token: char
+line:24 14
+
+type:VARIABLE
+token: c
+line:24 17
+
+type:PUNCTUATOR
+token: =
+line:24 20
+
+type:VARIABLE
+token: getchar
+line:24 29
+
+type:PUNCTUATOR
+token: (
+line:24 31
+
+type:PUNCTUATOR
+token: )
+line:24 33
+
+type:PUNCTUATOR
+token: ;
+line:25 1
+
+type:KEYWORD
+token: while
+line:25 15
+
+type:PUNCTUATOR
+token: (
+line:25 18
+
+type:VARIABLE
+token: c
+line:25 20
+
+type:PUNCTUATOR
+token: !=
+line:25 24
+
+type:VARIABLE
+token: EOF
+line:25 29
+
+type:PUNCTUATOR
+token: )
+line:26 1
+
+type:PUNCTUATOR
+token: {
+line:27 1
+
+type:KEYWORD
+token: if
+line:27 16
+
+type:PUNCTUATOR
+token: (
+line:27 19
+
+type:VARIABLE
+token: c
+line:27 21
+
+type:PUNCTUATOR
+token: ==
+line:27 25
+
+type:CHAR_CONSTANT
+token: '\n'
+line:27 31
+
+type:PUNCTUATOR
+token: ||
+line:27 34
+
+type:VARIABLE
+token: c
+line:27 36
+
+type:PUNCTUATOR
+token: ==
+line:27 39
+
+type:CHAR_CONSTANT
+token: ' '
+line:27 43
+
+type:PUNCTUATOR
+token: )
+line:28 1
+
+type:PUNCTUATOR
+token: {
+line:29 1
+
+type:VARIABLE
+token: keyword
+line:29 25
+
+type:PUNCTUATOR
+token: .
+line:29 27
+
+type:VARIABLE
+token: AddString
+line:29 37
+
+type:PUNCTUATOR
+token: (
+line:29 39
+
+type:VARIABLE
+token: word
+line:29 44
+
+type:PUNCTUATOR
+token: )
+line:29 46
+
+type:PUNCTUATOR
+token: ;
+line:30 1
+
+type:VARIABLE
+token: word
+line:30 22
+
+type:PUNCTUATOR
+token: =
+line:30 25
+
+type:STRING_CONSTANT
+token: ""
+line:30 29
+
+type:PUNCTUATOR
+token: ;
+line:31 1
+
+type:PUNCTUATOR
+token: }
+line:31 15
+
+type:KEYWORD
+token: else
+line:32 1
+
+type:VARIABLE
+token: word
+line:32 18
+
+type:PUNCTUATOR
+token: =
+line:32 21
+
+type:VARIABLE
+token: word
+line:32 27
+
+type:PUNCTUATOR
+token: +
+line:32 30
+
+type:VARIABLE
+token: c
+line:32 33
+
+type:PUNCTUATOR
+token: ;
+line:33 1
+
+type:VARIABLE
+token: c
+line:33 15
+
+type:PUNCTUATOR
+token: =
+line:33 18
+
+type:VARIABLE
+token: getchar
+line:33 27
+
+type:PUNCTUATOR
+token: (
+line:33 29
+
+type:PUNCTUATOR
+token: )
+line:33 31
+
+type:PUNCTUATOR
+token: ;
+line:34 1
+
+type:PUNCTUATOR
+token: }
+line:35 1
+
+type:VARIABLE
+token: keyword
+line:35 17
+
+type:PUNCTUATOR
+token: .
+line:35 19
+
+type:VARIABLE
+token: AddString
+line:35 29
+
+type:PUNCTUATOR
+token: (
+line:35 31
+
+type:VARIABLE
+token: word
+line:35 36
+
+type:PUNCTUATOR
+token: )
+line:35 38
+
+type:PUNCTUATOR
+token: ;
+line:36 1
+
+type:PUNCTUATOR
+token: }
+line:37 1
+
+type:KEYWORD
+token: void
+line:37 10
+
+type:VARIABLE
+token: PunctuatorTriePrepare
+line:37 33
+
+type:PUNCTUATOR
+token: (
+line:37 35
+
+type:PUNCTUATOR
+token: )
+line:38 1
+
+type:PUNCTUATOR
+token: {
+line:39 1
+
+type:VARIABLE
+token: freopen
+line:39 17
+
+type:PUNCTUATOR
+token: (
+line:39 19
+
+type:STRING_CONSTANT
+token: "punctuatortrie.txt"
+line:39 40
+
+type:PUNCTUATOR
+token: ,
+line:39 42
+
+type:STRING_CONSTANT
+token: "r"
+line:39 47
+
+type:PUNCTUATOR
+token: ,
+line:39 49
+
+type:VARIABLE
+token: stdin
+line:39 56
+
+type:PUNCTUATOR
+token: )
+line:39 58
+
+type:PUNCTUATOR
+token: ;
+line:40 1
+
+type:VARIABLE
+token: std
+line:40 13
+
+type:PUNCTUATOR
+token: :
+line:40 15
+
+type:PUNCTUATOR
+token: :
+line:40 17
+
+type:VARIABLE
+token: string
+line:40 24
+
+type:VARIABLE
+token: word
+line:40 30
+
+type:PUNCTUATOR
+token: ;
+line:41 1
+
+type:KEYWORD
+token: char
+line:41 14
+
+type:VARIABLE
+token: c
+line:41 17
+
+type:PUNCTUATOR
+token: =
+line:41 20
+
+type:VARIABLE
+token: getchar
+line:41 29
+
+type:PUNCTUATOR
+token: (
+line:41 31
+
+type:PUNCTUATOR
+token: )
+line:41 33
+
+type:PUNCTUATOR
+token: ;
+line:42 1
+
+type:KEYWORD
+token: while
+line:42 15
+
+type:PUNCTUATOR
+token: (
+line:42 18
+
+type:VARIABLE
+token: c
+line:42 20
+
+type:PUNCTUATOR
+token: !=
+line:42 24
+
+type:VARIABLE
+token: EOF
+line:42 29
+
+type:PUNCTUATOR
+token: )
+line:43 1
+
+type:PUNCTUATOR
+token: {
+line:44 1
+
+type:KEYWORD
+token: if
+line:44 16
+
+type:PUNCTUATOR
+token: (
+line:44 19
+
+type:VARIABLE
+token: c
+line:44 21
+
+type:PUNCTUATOR
+token: ==
+line:44 25
+
+type:CHAR_CONSTANT
+token: '\n'
+line:44 31
+
+type:PUNCTUATOR
+token: ||
+line:44 34
+
+type:VARIABLE
+token: c
+line:44 36
+
+type:PUNCTUATOR
+token: ==
+line:44 39
+
+type:CHAR_CONSTANT
+token: ' '
+line:44 43
+
+type:PUNCTUATOR
+token: )
+line:45 1
+
+type:PUNCTUATOR
+token: {
+line:46 1
+
+type:VARIABLE
+token: punctuator
+line:46 28
+
+type:PUNCTUATOR
+token: .
+line:46 30
+
+type:VARIABLE
+token: AddString
+line:46 40
+
+type:PUNCTUATOR
+token: (
+line:46 42
+
+type:VARIABLE
+token: word
+line:46 47
+
+type:PUNCTUATOR
+token: )
+line:46 49
+
+type:PUNCTUATOR
+token: ;
+line:47 1
+
+type:VARIABLE
+token: word
+line:47 22
+
+type:PUNCTUATOR
+token: =
+line:47 25
+
+type:STRING_CONSTANT
+token: ""
+line:47 29
+
+type:PUNCTUATOR
+token: ;
+line:48 1
+
+type:PUNCTUATOR
+token: }
+line:48 15
+
+type:KEYWORD
+token: else
+line:49 1
+
+type:VARIABLE
+token: word
+line:49 18
+
+type:PUNCTUATOR
+token: =
+line:49 21
+
+type:VARIABLE
+token: word
+line:49 27
+
+type:PUNCTUATOR
+token: +
+line:49 30
+
+type:VARIABLE
+token: c
+line:49 33
+
+type:PUNCTUATOR
+token: ;
+line:50 1
+
+type:VARIABLE
+token: c
+line:50 15
+
+type:PUNCTUATOR
+token: =
+line:50 18
+
+type:VARIABLE
+token: getchar
+line:50 27
+
+type:PUNCTUATOR
+token: (
+line:50 29
+
+type:PUNCTUATOR
+token: )
+line:50 31
+
+type:PUNCTUATOR
+token: ;
+line:51 1
+
+type:PUNCTUATOR
+token: }
+line:52 1
+
+type:VARIABLE
+token: punctuator
+line:52 20
+
+type:PUNCTUATOR
+token: .
+line:52 22
+
+type:VARIABLE
+token: AddString
+line:52 32
+
+type:PUNCTUATOR
+token: (
+line:52 34
+
+type:VARIABLE
+token: word
+line:52 39
+
+type:PUNCTUATOR
+token: )
+line:52 41
+
+type:PUNCTUATOR
+token: ;
+line:53 1
+
+type:PUNCTUATOR
+token: }
+line:54 1
+
+type:KEYWORD
+token: void
+line:54 10
+
+type:VARIABLE
+token: CleanTokenBuffer
+line:54 28
+
+type:PUNCTUATOR
+token: (
+line:54 30
+
+type:PUNCTUATOR
+token: )
+line:55 1
+
+type:PUNCTUATOR
+token: {
+line:56 1
+
+type:VARIABLE
+token: token_buffer
+line:56 22
+
+type:PUNCTUATOR
+token: =
+line:56 25
+
+type:STRING_CONSTANT
+token: ""
+line:56 29
+
+type:PUNCTUATOR
+token: ;
+line:57 1
+
+type:VARIABLE
+token: dfa_status
+line:57 20
+
+type:PUNCTUATOR
+token: =
+line:57 23
+
+type:VARIABLE
+token: S
+line:57 26
+
+type:PUNCTUATOR
+token: ;
+line:58 1
+
+type:VARIABLE
+token: type_buffer
+line:58 21
+
+type:PUNCTUATOR
+token: =
+line:58 24
+
+type:VARIABLE
+token: ERROR
+line:58 31
+
+type:PUNCTUATOR
+token: ;
+line:59 1
+
+type:VARIABLE
+token: extended_buffer
+line:59 25
+
+type:PUNCTUATOR
+token: =
+line:59 28
+
+type:STRING_CONSTANT
+token: ""
+line:59 32
+
+type:PUNCTUATOR
+token: ;
+line:60 1
+
+type:VARIABLE
+token: trie_keyword
+line:60 22
+
+type:PUNCTUATOR
+token: =
+line:60 25
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:60 28
+
+type:PUNCTUATOR
+token: ;
+line:61 1
+
+type:VARIABLE
+token: trie_punctuator
+line:61 25
+
+type:PUNCTUATOR
+token: =
+line:61 28
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:61 31
+
+type:PUNCTUATOR
+token: ;
+line:62 1
+
+type:PUNCTUATOR
+token: }
+line:63 1
+
+type:KEYWORD
+token: int
+line:63 9
+
+type:VARIABLE
+token: ReceiveNextCharacter
+line:63 31
+
+type:PUNCTUATOR
+token: (
+line:63 33
+
+type:KEYWORD
+token: char
+line:63 38
+
+type:VARIABLE
+token: c
+line:63 41
+
+type:PUNCTUATOR
+token: )
+line:64 1
+
+type:PUNCTUATOR
+token: {
+line:65 1
+
+type:KEYWORD
+token: switch
+line:65 16
+
+type:PUNCTUATOR
+token: (
+line:65 19
+
+type:VARIABLE
+token: dfa_status
+line:65 30
+
+type:PUNCTUATOR
+token: )
+line:66 1
+
+type:PUNCTUATOR
+token: {
+line:67 1
+
+type:KEYWORD
+token: case
+line:67 14
+
+type:VARIABLE
+token: S
+line:67 17
+
+type:PUNCTUATOR
+token: :
+line:68 1
+
+type:KEYWORD
+token: if
+line:68 16
+
+type:PUNCTUATOR
+token: (
+line:68 19
+
+type:VARIABLE
+token: c
+line:68 21
+
+type:PUNCTUATOR
+token: ==
+line:68 25
+
+type:CHAR_CONSTANT
+token: '0'
+line:68 30
+
+type:PUNCTUATOR
+token: )
+line:69 1
+
+type:PUNCTUATOR
+token: {
+line:70 1
+
+type:VARIABLE
+token: dfa_status
+line:70 28
+
+type:PUNCTUATOR
+token: =
+line:70 31
+
+type:VARIABLE
+token: HEX_PRE
+line:70 40
+
+type:PUNCTUATOR
+token: ;
+line:71 1
+
+type:VARIABLE
+token: token_buffer
+line:71 30
+
+type:PUNCTUATOR
+token: +=
+line:71 34
+
+type:VARIABLE
+token: c
+line:71 37
+
+type:PUNCTUATOR
+token: ;
+line:72 1
+
+type:KEYWORD
+token: return
+line:72 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:72 27
+
+type:PUNCTUATOR
+token: ;
+line:73 1
+
+type:PUNCTUATOR
+token: }
+line:74 1
+
+type:KEYWORD
+token: if
+line:74 16
+
+type:PUNCTUATOR
+token: (
+line:74 19
+
+type:VARIABLE
+token: c
+line:74 21
+
+type:PUNCTUATOR
+token: >=
+line:74 25
+
+type:CHAR_CONSTANT
+token: '1'
+line:74 30
+
+type:PUNCTUATOR
+token: &&
+line:74 34
+
+type:VARIABLE
+token: c
+line:74 37
+
+type:PUNCTUATOR
+token: <=
+line:74 41
+
+type:CHAR_CONSTANT
+token: '9'
+line:74 46
+
+type:PUNCTUATOR
+token: )
+line:75 1
+
+type:PUNCTUATOR
+token: {
+line:76 1
+
+type:VARIABLE
+token: dfa_status
+line:76 28
+
+type:PUNCTUATOR
+token: =
+line:76 31
+
+type:VARIABLE
+token: INT_NUMBER
+line:76 43
+
+type:PUNCTUATOR
+token: ;
+line:77 1
+
+type:VARIABLE
+token: token_buffer
+line:77 30
+
+type:PUNCTUATOR
+token: +=
+line:77 34
+
+type:VARIABLE
+token: c
+line:77 37
+
+type:PUNCTUATOR
+token: ;
+line:78 1
+
+type:KEYWORD
+token: return
+line:78 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:78 27
+
+type:PUNCTUATOR
+token: ;
+line:79 1
+
+type:PUNCTUATOR
+token: }
+line:80 1
+
+type:KEYWORD
+token: if
+line:80 16
+
+type:PUNCTUATOR
+token: (
+line:80 19
+
+type:VARIABLE
+token: c
+line:80 21
+
+type:PUNCTUATOR
+token: ==
+line:80 25
+
+type:CHAR_CONSTANT
+token: '.'
+line:80 30
+
+type:PUNCTUATOR
+token: )
+line:81 1
+
+type:PUNCTUATOR
+token: {
+line:82 1
+
+type:VARIABLE
+token: dfa_status
+line:82 28
+
+type:PUNCTUATOR
+token: =
+line:82 31
+
+type:VARIABLE
+token: ZERO_POINT_FLOAT
+line:82 49
+
+type:PUNCTUATOR
+token: ;
+line:83 1
+
+type:VARIABLE
+token: token_buffer
+line:83 30
+
+type:PUNCTUATOR
+token: +=
+line:83 34
+
+type:VARIABLE
+token: c
+line:83 37
+
+type:PUNCTUATOR
+token: ;
+line:84 1
+
+type:KEYWORD
+token: return
+line:84 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:84 27
+
+type:PUNCTUATOR
+token: ;
+line:85 1
+
+type:PUNCTUATOR
+token: }
+line:86 1
+
+type:KEYWORD
+token: if
+line:86 16
+
+type:PUNCTUATOR
+token: (
+line:86 19
+
+type:VARIABLE
+token: c
+line:86 21
+
+type:PUNCTUATOR
+token: ==
+line:86 25
+
+type:CHAR_CONSTANT
+token: '\''
+line:86 31
+
+type:PUNCTUATOR
+token: )
+line:87 1
+
+type:PUNCTUATOR
+token: {
+line:88 1
+
+type:VARIABLE
+token: dfa_status
+line:88 28
+
+type:PUNCTUATOR
+token: =
+line:88 31
+
+type:VARIABLE
+token: CHARACTER_START
+line:88 48
+
+type:PUNCTUATOR
+token: ;
+line:89 1
+
+type:VARIABLE
+token: token_buffer
+line:89 30
+
+type:PUNCTUATOR
+token: +=
+line:89 34
+
+type:VARIABLE
+token: c
+line:89 37
+
+type:PUNCTUATOR
+token: ;
+line:90 1
+
+type:KEYWORD
+token: return
+line:90 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:90 27
+
+type:PUNCTUATOR
+token: ;
+line:91 1
+
+type:PUNCTUATOR
+token: }
+line:92 1
+
+type:KEYWORD
+token: if
+line:92 16
+
+type:PUNCTUATOR
+token: (
+line:92 19
+
+type:VARIABLE
+token: c
+line:92 21
+
+type:PUNCTUATOR
+token: ==
+line:92 25
+
+type:CHAR_CONSTANT
+token: '\"'
+line:92 31
+
+type:PUNCTUATOR
+token: )
+line:93 1
+
+type:PUNCTUATOR
+token: {
+line:94 1
+
+type:VARIABLE
+token: dfa_status
+line:94 28
+
+type:PUNCTUATOR
+token: =
+line:94 31
+
+type:VARIABLE
+token: STRING
+line:94 39
+
+type:PUNCTUATOR
+token: ;
+line:95 1
+
+type:VARIABLE
+token: token_buffer
+line:95 30
+
+type:PUNCTUATOR
+token: +=
+line:95 34
+
+type:VARIABLE
+token: c
+line:95 37
+
+type:PUNCTUATOR
+token: ;
+line:96 1
+
+type:KEYWORD
+token: return
+line:96 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:96 27
+
+type:PUNCTUATOR
+token: ;
+line:97 1
+
+type:PUNCTUATOR
+token: }
+line:98 1
+
+type:KEYWORD
+token: if
+line:98 16
+
+type:PUNCTUATOR
+token: (
+line:98 19
+
+type:VARIABLE
+token: punctuator
+line:98 30
+
+type:PUNCTUATOR
+token: .
+line:98 32
+
+type:VARIABLE
+token: node
+line:98 37
+
+type:PUNCTUATOR
+token: [
+line:98 39
+
+type:VARIABLE
+token: trie_punctuator
+line:98 55
+
+type:PUNCTUATOR
+token: ]
+line:98 57
+
+type:PUNCTUATOR
+token: .
+line:98 59
+
+type:VARIABLE
+token: point
+line:98 65
+
+type:PUNCTUATOR
+token: [
+line:98 67
+
+type:VARIABLE
+token: c
+line:98 69
+
+type:PUNCTUATOR
+token: ]
+line:98 71
+
+type:PUNCTUATOR
+token: !=
+line:98 75
+
+type:INTEGER_CONSTANT
+token: 0
+line:98 78
+
+type:PUNCTUATOR
+token: )
+line:99 1
+
+type:PUNCTUATOR
+token: {
+line:100 1
+
+type:VARIABLE
+token: dfa_status
+line:100 28
+
+type:PUNCTUATOR
+token: =
+line:100 31
+
+type:VARIABLE
+token: PUNCTUATOR_DFA
+line:100 47
+
+type:PUNCTUATOR
+token: ;
+line:101 1
+
+type:VARIABLE
+token: trie_punctuator
+line:101 33
+
+type:PUNCTUATOR
+token: =
+line:101 36
+
+type:VARIABLE
+token: punctuator
+line:101 48
+
+type:PUNCTUATOR
+token: .
+line:101 50
+
+type:VARIABLE
+token: node
+line:101 55
+
+type:PUNCTUATOR
+token: [
+line:101 57
+
+type:VARIABLE
+token: trie_punctuator
+line:101 73
+
+type:PUNCTUATOR
+token: ]
+line:101 75
+
+type:PUNCTUATOR
+token: .
+line:101 77
+
+type:VARIABLE
+token: point
+line:101 83
+
+type:PUNCTUATOR
+token: [
+line:101 85
+
+type:VARIABLE
+token: c
+line:101 87
+
+type:PUNCTUATOR
+token: ]
+line:101 89
+
+type:PUNCTUATOR
+token: ;
+line:102 1
+
+type:VARIABLE
+token: token_buffer
+line:102 30
+
+type:PUNCTUATOR
+token: +=
+line:102 34
+
+type:VARIABLE
+token: c
+line:102 37
+
+type:PUNCTUATOR
+token: ;
+line:103 1
+
+type:KEYWORD
+token: return
+line:103 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:103 27
+
+type:PUNCTUATOR
+token: ;
+line:104 1
+
+type:PUNCTUATOR
+token: }
+line:105 1
+
+type:KEYWORD
+token: if
+line:105 16
+
+type:PUNCTUATOR
+token: (
+line:105 19
+
+type:PUNCTUATOR
+token: (
+line:105 21
+
+type:CHAR_CONSTANT
+token: 'a'
+line:105 25
+
+type:PUNCTUATOR
+token: <=
+line:105 29
+
+type:VARIABLE
+token: c
+line:105 32
+
+type:PUNCTUATOR
+token: &&
+line:105 36
+
+type:VARIABLE
+token: c
+line:105 39
+
+type:PUNCTUATOR
+token: <=
+line:105 43
+
+type:CHAR_CONSTANT
+token: 'z'
+line:105 48
+
+type:PUNCTUATOR
+token: )
+line:105 50
+
+type:PUNCTUATOR
+token: ||
+line:105 54
+
+type:PUNCTUATOR
+token: (
+line:105 57
+
+type:CHAR_CONSTANT
+token: 'A'
+line:105 61
+
+type:PUNCTUATOR
+token: <=
+line:105 65
+
+type:VARIABLE
+token: c
+line:105 68
+
+type:PUNCTUATOR
+token: &&
+line:105 72
+
+type:VARIABLE
+token: c
+line:105 75
+
+type:PUNCTUATOR
+token: <=
+line:105 79
+
+type:CHAR_CONSTANT
+token: 'Z'
+line:105 84
+
+type:PUNCTUATOR
+token: )
+line:105 86
+
+type:PUNCTUATOR
+token: ||
+line:105 90
+
+type:VARIABLE
+token: c
+line:105 93
+
+type:PUNCTUATOR
+token: ==
+line:105 97
+
+type:CHAR_CONSTANT
+token: '_'
+line:105 102
+
+type:PUNCTUATOR
+token: )
+line:106 1
+
+type:PUNCTUATOR
+token: {
+line:107 1
+
+type:VARIABLE
+token: dfa_status
+line:107 28
+
+type:PUNCTUATOR
+token: =
+line:107 31
+
+type:VARIABLE
+token: KEYWORD_DFA
+line:107 44
+
+type:PUNCTUATOR
+token: ;
+line:108 1
+
+type:VARIABLE
+token: trie_keyword
+line:108 30
+
+type:PUNCTUATOR
+token: =
+line:108 33
+
+type:VARIABLE
+token: keyword
+line:108 42
+
+type:PUNCTUATOR
+token: .
+line:108 44
+
+type:VARIABLE
+token: node
+line:108 49
+
+type:PUNCTUATOR
+token: [
+line:108 51
+
+type:VARIABLE
+token: trie_keyword
+line:108 64
+
+type:PUNCTUATOR
+token: ]
+line:108 66
+
+type:PUNCTUATOR
+token: .
+line:108 68
+
+type:VARIABLE
+token: point
+line:108 74
+
+type:PUNCTUATOR
+token: [
+line:108 76
+
+type:VARIABLE
+token: c
+line:108 78
+
+type:PUNCTUATOR
+token: ]
+line:108 80
+
+type:PUNCTUATOR
+token: ;
+line:109 1
+
+type:VARIABLE
+token: token_buffer
+line:109 30
+
+type:PUNCTUATOR
+token: +=
+line:109 34
+
+type:VARIABLE
+token: c
+line:109 37
+
+type:PUNCTUATOR
+token: ;
+line:110 1
+
+type:KEYWORD
+token: return
+line:110 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:110 27
+
+type:PUNCTUATOR
+token: ;
+line:111 1
+
+type:PUNCTUATOR
+token: }
+line:112 1
+
+type:KEYWORD
+token: break
+line:112 19
+
+type:PUNCTUATOR
+token: ;
+line:113 1
+
+type:KEYWORD
+token: case
+line:113 14
+
+type:VARIABLE
+token: PUNCTUATOR_DFA
+line:113 30
+
+type:PUNCTUATOR
+token: :
+line:114 1
+
+type:KEYWORD
+token: if
+line:114 16
+
+type:PUNCTUATOR
+token: (
+line:114 19
+
+type:VARIABLE
+token: punctuator
+line:114 30
+
+type:PUNCTUATOR
+token: .
+line:114 32
+
+type:VARIABLE
+token: node
+line:114 37
+
+type:PUNCTUATOR
+token: [
+line:114 39
+
+type:VARIABLE
+token: trie_punctuator
+line:114 55
+
+type:PUNCTUATOR
+token: ]
+line:114 57
+
+type:PUNCTUATOR
+token: .
+line:114 59
+
+type:VARIABLE
+token: point
+line:114 65
+
+type:PUNCTUATOR
+token: [
+line:114 67
+
+type:VARIABLE
+token: c
+line:114 69
+
+type:PUNCTUATOR
+token: ]
+line:114 71
+
+type:PUNCTUATOR
+token: !=
+line:114 75
+
+type:INTEGER_CONSTANT
+token: 0
+line:114 78
+
+type:PUNCTUATOR
+token: )
+line:115 1
+
+type:PUNCTUATOR
+token: {
+line:116 1
+
+type:VARIABLE
+token: trie_punctuator
+line:116 33
+
+type:PUNCTUATOR
+token: =
+line:116 36
+
+type:VARIABLE
+token: punctuator
+line:116 48
+
+type:PUNCTUATOR
+token: .
+line:116 50
+
+type:VARIABLE
+token: node
+line:116 55
+
+type:PUNCTUATOR
+token: [
+line:116 57
+
+type:VARIABLE
+token: trie_punctuator
+line:116 73
+
+type:PUNCTUATOR
+token: ]
+line:116 75
+
+type:PUNCTUATOR
+token: .
+line:116 77
+
+type:VARIABLE
+token: point
+line:116 83
+
+type:PUNCTUATOR
+token: [
+line:116 85
+
+type:VARIABLE
+token: c
+line:116 87
+
+type:PUNCTUATOR
+token: ]
+line:116 89
+
+type:PUNCTUATOR
+token: ;
+line:117 1
+
+type:VARIABLE
+token: token_buffer
+line:117 30
+
+type:PUNCTUATOR
+token: +=
+line:117 34
+
+type:VARIABLE
+token: c
+line:117 37
+
+type:PUNCTUATOR
+token: ;
+line:118 1
+
+type:KEYWORD
+token: return
+line:118 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:118 27
+
+type:PUNCTUATOR
+token: ;
+line:119 1
+
+type:PUNCTUATOR
+token: }
+line:120 1
+
+type:KEYWORD
+token: if
+line:120 16
+
+type:PUNCTUATOR
+token: (
+line:120 19
+
+type:VARIABLE
+token: punctuator
+line:120 30
+
+type:PUNCTUATOR
+token: .
+line:120 32
+
+type:VARIABLE
+token: node
+line:120 37
+
+type:PUNCTUATOR
+token: [
+line:120 39
+
+type:VARIABLE
+token: trie_punctuator
+line:120 55
+
+type:PUNCTUATOR
+token: ]
+line:120 57
+
+type:PUNCTUATOR
+token: .
+line:120 59
+
+type:VARIABLE
+token: endpos
+line:120 66
+
+type:PUNCTUATOR
+token: )
+line:121 1
+
+type:PUNCTUATOR
+token: {
+line:122 1
+
+type:VARIABLE
+token: type_buffer
+line:122 29
+
+type:PUNCTUATOR
+token: =
+line:122 32
+
+type:VARIABLE
+token: PUNCTUATOR
+line:122 44
+
+type:PUNCTUATOR
+token: ;
+line:123 1
+
+type:VARIABLE
+token: flow_back
+line:123 27
+
+type:PUNCTUATOR
+token: =
+line:123 30
+
+type:VARIABLE
+token: c
+line:123 33
+
+type:PUNCTUATOR
+token: ;
+line:124 1
+
+type:KEYWORD
+token: return
+line:124 24
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:124 27
+
+type:PUNCTUATOR
+token: ;
+line:125 1
+
+type:PUNCTUATOR
+token: }
+line:126 1
+
+type:KEYWORD
+token: else
+line:127 1
+
+type:PUNCTUATOR
+token: {
+line:128 1
+
+type:VARIABLE
+token: type_buffer
+line:128 29
+
+type:PUNCTUATOR
+token: =
+line:128 32
+
+type:VARIABLE
+token: ERROR
+line:128 39
+
+type:PUNCTUATOR
+token: ;
+line:129 1
+
+type:VARIABLE
+token: extended_buffer
+line:129 33
+
+type:PUNCTUATOR
+token: +=
+line:129 37
+
+type:STRING_CONSTANT
+token: "UNKNOW PUNCTUATOR"
+line:129 58
+
+type:PUNCTUATOR
+token: ;
+line:130 1
+
+type:VARIABLE
+token: flow_back
+line:130 27
+
+type:PUNCTUATOR
+token: =
+line:130 30
+
+type:VARIABLE
+token: c
+line:130 33
+
+type:PUNCTUATOR
+token: ;
+line:131 1
+
+type:KEYWORD
+token: return
+line:131 24
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:131 27
+
+type:PUNCTUATOR
+token: ;
+line:132 1
+
+type:PUNCTUATOR
+token: }
+line:133 1
+
+type:KEYWORD
+token: case
+line:133 14
+
+type:VARIABLE
+token: KEYWORD_DFA
+line:133 27
+
+type:PUNCTUATOR
+token: :
+line:134 1
+
+type:KEYWORD
+token: if
+line:134 16
+
+type:PUNCTUATOR
+token: (
+line:134 19
+
+type:VARIABLE
+token: keyword
+line:134 27
+
+type:PUNCTUATOR
+token: .
+line:134 29
+
+type:VARIABLE
+token: node
+line:134 34
+
+type:PUNCTUATOR
+token: [
+line:134 36
+
+type:VARIABLE
+token: trie_keyword
+line:134 49
+
+type:PUNCTUATOR
+token: ]
+line:134 51
+
+type:PUNCTUATOR
+token: .
+line:134 53
+
+type:VARIABLE
+token: point
+line:134 59
+
+type:PUNCTUATOR
+token: [
+line:134 61
+
+type:VARIABLE
+token: c
+line:134 63
+
+type:PUNCTUATOR
+token: ]
+line:134 65
+
+type:PUNCTUATOR
+token: !=
+line:134 69
+
+type:INTEGER_CONSTANT
+token: 0
+line:134 72
+
+type:PUNCTUATOR
+token: )
+line:135 1
+
+type:PUNCTUATOR
+token: {
+line:136 1
+
+type:VARIABLE
+token: trie_keyword
+line:136 30
+
+type:PUNCTUATOR
+token: =
+line:136 33
+
+type:VARIABLE
+token: keyword
+line:136 42
+
+type:PUNCTUATOR
+token: .
+line:136 44
+
+type:VARIABLE
+token: node
+line:136 49
+
+type:PUNCTUATOR
+token: [
+line:136 51
+
+type:VARIABLE
+token: trie_keyword
+line:136 64
+
+type:PUNCTUATOR
+token: ]
+line:136 66
+
+type:PUNCTUATOR
+token: .
+line:136 68
+
+type:VARIABLE
+token: point
+line:136 74
+
+type:PUNCTUATOR
+token: [
+line:136 76
+
+type:VARIABLE
+token: c
+line:136 78
+
+type:PUNCTUATOR
+token: ]
+line:136 80
+
+type:PUNCTUATOR
+token: ;
+line:137 1
+
+type:VARIABLE
+token: token_buffer
+line:137 30
+
+type:PUNCTUATOR
+token: +=
+line:137 34
+
+type:VARIABLE
+token: c
+line:137 37
+
+type:PUNCTUATOR
+token: ;
+line:138 1
+
+type:KEYWORD
+token: return
+line:138 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:138 27
+
+type:PUNCTUATOR
+token: ;
+line:139 1
+
+type:PUNCTUATOR
+token: }
+line:140 1
+
+type:KEYWORD
+token: if
+line:140 16
+
+type:PUNCTUATOR
+token: (
+line:140 19
+
+type:PUNCTUATOR
+token: (
+line:140 21
+
+type:CHAR_CONSTANT
+token: 'a'
+line:140 25
+
+type:PUNCTUATOR
+token: <=
+line:140 29
+
+type:VARIABLE
+token: c
+line:140 32
+
+type:PUNCTUATOR
+token: &&
+line:140 36
+
+type:VARIABLE
+token: c
+line:140 39
+
+type:PUNCTUATOR
+token: <=
+line:140 43
+
+type:CHAR_CONSTANT
+token: 'z'
+line:140 48
+
+type:PUNCTUATOR
+token: )
+line:140 50
+
+type:PUNCTUATOR
+token: ||
+line:140 54
+
+type:PUNCTUATOR
+token: (
+line:140 57
+
+type:CHAR_CONSTANT
+token: 'A'
+line:140 61
+
+type:PUNCTUATOR
+token: <=
+line:140 65
+
+type:VARIABLE
+token: c
+line:140 68
+
+type:PUNCTUATOR
+token: &&
+line:140 72
+
+type:VARIABLE
+token: c
+line:140 75
+
+type:PUNCTUATOR
+token: <=
+line:140 79
+
+type:CHAR_CONSTANT
+token: 'Z'
+line:140 84
+
+type:PUNCTUATOR
+token: )
+line:140 86
+
+type:PUNCTUATOR
+token: ||
+line:140 90
+
+type:VARIABLE
+token: c
+line:140 93
+
+type:PUNCTUATOR
+token: ==
+line:140 97
+
+type:CHAR_CONSTANT
+token: '_'
+line:140 102
+
+type:PUNCTUATOR
+token: ||
+line:140 106
+
+type:PUNCTUATOR
+token: (
+line:140 109
+
+type:CHAR_CONSTANT
+token: '0'
+line:140 113
+
+type:PUNCTUATOR
+token: <=
+line:140 117
+
+type:VARIABLE
+token: c
+line:140 120
+
+type:PUNCTUATOR
+token: &&
+line:140 124
+
+type:VARIABLE
+token: c
+line:140 127
+
+type:PUNCTUATOR
+token: <=
+line:140 131
+
+type:CHAR_CONSTANT
+token: '9'
+line:140 136
+
+type:PUNCTUATOR
+token: )
+line:140 138
+
+type:PUNCTUATOR
+token: )
+line:141 1
+
+type:PUNCTUATOR
+token: {
+line:142 1
+
+type:VARIABLE
+token: trie_keyword
+line:142 30
+
+type:PUNCTUATOR
+token: =
+line:142 33
+
+type:INTEGER_CONSTANT
+token: 0
+line:142 36
+
+type:PUNCTUATOR
+token: ;
+line:143 1
+
+type:VARIABLE
+token: token_buffer
+line:143 30
+
+type:PUNCTUATOR
+token: +=
+line:143 34
+
+type:VARIABLE
+token: c
+line:143 37
+
+type:PUNCTUATOR
+token: ;
+line:144 1
+
+type:KEYWORD
+token: return
+line:144 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:144 27
+
+type:PUNCTUATOR
+token: ;
+line:145 1
+
+type:PUNCTUATOR
+token: }
+line:146 1
+
+type:VARIABLE
+token: flow_back
+line:146 23
+
+type:PUNCTUATOR
+token: =
+line:146 26
+
+type:VARIABLE
+token: c
+line:146 29
+
+type:PUNCTUATOR
+token: ;
+line:147 1
+
+type:KEYWORD
+token: if
+line:147 16
+
+type:PUNCTUATOR
+token: (
+line:147 19
+
+type:VARIABLE
+token: keyword
+line:147 27
+
+type:PUNCTUATOR
+token: .
+line:147 29
+
+type:VARIABLE
+token: node
+line:147 34
+
+type:PUNCTUATOR
+token: [
+line:147 36
+
+type:VARIABLE
+token: trie_keyword
+line:147 49
+
+type:PUNCTUATOR
+token: ]
+line:147 51
+
+type:PUNCTUATOR
+token: .
+line:147 53
+
+type:VARIABLE
+token: endpos
+line:147 60
+
+type:PUNCTUATOR
+token: !=
+line:147 64
+
+type:INTEGER_CONSTANT
+token: 0
+line:147 67
+
+type:PUNCTUATOR
+token: )
+line:148 1
+
+type:PUNCTUATOR
+token: {
+line:149 1
+
+type:VARIABLE
+token: type_buffer
+line:149 29
+
+type:PUNCTUATOR
+token: =
+line:149 32
+
+type:VARIABLE
+token: KEYWORD
+line:149 41
+
+type:PUNCTUATOR
+token: ;
+line:150 1
+
+type:PUNCTUATOR
+token: }
+line:151 1
+
+type:KEYWORD
+token: else
+line:152 1
+
+type:PUNCTUATOR
+token: {
+line:153 1
+
+type:VARIABLE
+token: type_buffer
+line:153 29
+
+type:PUNCTUATOR
+token: =
+line:153 32
+
+type:VARIABLE
+token: VARIABLE
+line:153 42
+
+type:PUNCTUATOR
+token: ;
+line:154 1
+
+type:PUNCTUATOR
+token: }
+line:155 1
+
+type:KEYWORD
+token: return
+line:155 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:155 23
+
+type:PUNCTUATOR
+token: ;
+line:156 1
+
+type:KEYWORD
+token: case
+line:156 14
+
+type:VARIABLE
+token: INT_NUMBER
+line:156 26
+
+type:PUNCTUATOR
+token: :
+line:157 1
+
+type:KEYWORD
+token: if
+line:157 16
+
+type:PUNCTUATOR
+token: (
+line:157 19
+
+type:CHAR_CONSTANT
+token: '0'
+line:157 23
+
+type:PUNCTUATOR
+token: <=
+line:157 27
+
+type:VARIABLE
+token: c
+line:157 30
+
+type:PUNCTUATOR
+token: &&
+line:157 34
+
+type:VARIABLE
+token: c
+line:157 37
+
+type:PUNCTUATOR
+token: <=
+line:157 41
+
+type:CHAR_CONSTANT
+token: '9'
+line:157 46
+
+type:PUNCTUATOR
+token: )
+line:158 1
+
+type:PUNCTUATOR
+token: {
+line:159 1
+
+type:VARIABLE
+token: token_buffer
+line:159 30
+
+type:PUNCTUATOR
+token: +=
+line:159 34
+
+type:VARIABLE
+token: c
+line:159 37
+
+type:PUNCTUATOR
+token: ;
+line:160 1
+
+type:KEYWORD
+token: return
+line:160 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:160 27
+
+type:PUNCTUATOR
+token: ;
+line:161 1
+
+type:PUNCTUATOR
+token: }
+line:162 1
+
+type:KEYWORD
+token: if
+line:162 16
+
+type:PUNCTUATOR
+token: (
+line:162 19
+
+type:VARIABLE
+token: c
+line:162 21
+
+type:PUNCTUATOR
+token: ==
+line:162 25
+
+type:CHAR_CONSTANT
+token: 'l'
+line:162 30
+
+type:PUNCTUATOR
+token: ||
+line:162 34
+
+type:VARIABLE
+token: c
+line:162 37
+
+type:PUNCTUATOR
+token: ==
+line:162 41
+
+type:CHAR_CONSTANT
+token: 'L'
+line:162 46
+
+type:PUNCTUATOR
+token: )
+line:163 1
+
+type:PUNCTUATOR
+token: {
+line:164 1
+
+type:VARIABLE
+token: dfa_status
+line:164 28
+
+type:PUNCTUATOR
+token: =
+line:164 31
+
+type:VARIABLE
+token: SUF_INT_L
+line:164 42
+
+type:PUNCTUATOR
+token: ;
+line:165 1
+
+type:VARIABLE
+token: token_buffer
+line:165 30
+
+type:PUNCTUATOR
+token: +=
+line:165 34
+
+type:VARIABLE
+token: c
+line:165 37
+
+type:PUNCTUATOR
+token: ;
+line:166 1
+
+type:VARIABLE
+token: extended_buffer
+line:166 33
+
+type:PUNCTUATOR
+token: +=
+line:166 37
+
+type:STRING_CONSTANT
+token: "LONG "
+line:166 46
+
+type:PUNCTUATOR
+token: ;
+line:167 1
+
+type:KEYWORD
+token: return
+line:167 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:167 27
+
+type:PUNCTUATOR
+token: ;
+line:168 1
+
+type:PUNCTUATOR
+token: }
+line:169 1
+
+type:KEYWORD
+token: if
+line:169 16
+
+type:PUNCTUATOR
+token: (
+line:169 19
+
+type:VARIABLE
+token: c
+line:169 21
+
+type:PUNCTUATOR
+token: ==
+line:169 25
+
+type:CHAR_CONSTANT
+token: 'u'
+line:169 30
+
+type:PUNCTUATOR
+token: ||
+line:169 34
+
+type:VARIABLE
+token: c
+line:169 37
+
+type:PUNCTUATOR
+token: ==
+line:169 41
+
+type:CHAR_CONSTANT
+token: 'U'
+line:169 46
+
+type:PUNCTUATOR
+token: )
+line:170 1
+
+type:PUNCTUATOR
+token: {
+line:171 1
+
+type:VARIABLE
+token: dfa_status
+line:171 28
+
+type:PUNCTUATOR
+token: =
+line:171 31
+
+type:VARIABLE
+token: SUF_INT_UNSIGNED
+line:171 49
+
+type:PUNCTUATOR
+token: ;
+line:172 1
+
+type:VARIABLE
+token: token_buffer
+line:172 30
+
+type:PUNCTUATOR
+token: +=
+line:172 34
+
+type:VARIABLE
+token: c
+line:172 37
+
+type:PUNCTUATOR
+token: ;
+line:173 1
+
+type:VARIABLE
+token: extended_buffer
+line:173 33
+
+type:PUNCTUATOR
+token: +=
+line:173 37
+
+type:STRING_CONSTANT
+token: "UNSIGNED "
+line:173 50
+
+type:PUNCTUATOR
+token: ;
+line:174 1
+
+type:KEYWORD
+token: return
+line:174 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:174 27
+
+type:PUNCTUATOR
+token: ;
+line:175 1
+
+type:PUNCTUATOR
+token: }
+line:176 1
+
+type:KEYWORD
+token: if
+line:176 16
+
+type:PUNCTUATOR
+token: (
+line:176 19
+
+type:VARIABLE
+token: c
+line:176 21
+
+type:PUNCTUATOR
+token: ==
+line:176 25
+
+type:CHAR_CONSTANT
+token: '.'
+line:176 30
+
+type:PUNCTUATOR
+token: )
+line:177 1
+
+type:PUNCTUATOR
+token: {
+line:178 1
+
+type:VARIABLE
+token: dfa_status
+line:178 28
+
+type:PUNCTUATOR
+token: =
+line:178 31
+
+type:VARIABLE
+token: FLOAT_NUMBER
+line:178 45
+
+type:PUNCTUATOR
+token: ;
+line:179 1
+
+type:VARIABLE
+token: token_buffer
+line:179 30
+
+type:PUNCTUATOR
+token: +=
+line:179 34
+
+type:VARIABLE
+token: c
+line:179 37
+
+type:PUNCTUATOR
+token: ;
+line:180 1
+
+type:KEYWORD
+token: return
+line:180 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:180 27
+
+type:PUNCTUATOR
+token: ;
+line:181 1
+
+type:PUNCTUATOR
+token: }
+line:182 1
+
+type:KEYWORD
+token: if
+line:182 16
+
+type:PUNCTUATOR
+token: (
+line:182 19
+
+type:VARIABLE
+token: c
+line:182 21
+
+type:PUNCTUATOR
+token: ==
+line:182 25
+
+type:CHAR_CONSTANT
+token: 'e'
+line:182 30
+
+type:PUNCTUATOR
+token: ||
+line:182 34
+
+type:VARIABLE
+token: c
+line:182 37
+
+type:PUNCTUATOR
+token: ==
+line:182 41
+
+type:CHAR_CONSTANT
+token: 'E'
+line:182 46
+
+type:PUNCTUATOR
+token: )
+line:183 1
+
+type:PUNCTUATOR
+token: {
+line:184 1
+
+type:VARIABLE
+token: dfa_status
+line:184 28
+
+type:PUNCTUATOR
+token: =
+line:184 31
+
+type:VARIABLE
+token: FLOAT_EXPONENT_PART
+line:184 52
+
+type:PUNCTUATOR
+token: ;
+line:185 1
+
+type:VARIABLE
+token: token_buffer
+line:185 30
+
+type:PUNCTUATOR
+token: +=
+line:185 34
+
+type:VARIABLE
+token: c
+line:185 37
+
+type:PUNCTUATOR
+token: ;
+line:186 1
+
+type:KEYWORD
+token: return
+line:186 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:186 27
+
+type:PUNCTUATOR
+token: ;
+line:187 1
+
+type:PUNCTUATOR
+token: }
+line:188 1
+
+type:VARIABLE
+token: type_buffer
+line:188 25
+
+type:PUNCTUATOR
+token: =
+line:188 28
+
+type:VARIABLE
+token: INTEGER_CONSTANT
+line:188 46
+
+type:PUNCTUATOR
+token: ;
+line:189 1
+
+type:VARIABLE
+token: extended_buffer
+line:189 29
+
+type:PUNCTUATOR
+token: =
+line:189 32
+
+type:STRING_CONSTANT
+token: "INT"
+line:189 39
+
+type:PUNCTUATOR
+token: ;
+line:190 1
+
+type:VARIABLE
+token: flow_back
+line:190 23
+
+type:PUNCTUATOR
+token: =
+line:190 26
+
+type:VARIABLE
+token: c
+line:190 29
+
+type:PUNCTUATOR
+token: ;
+line:191 1
+
+type:KEYWORD
+token: return
+line:191 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:191 23
+
+type:PUNCTUATOR
+token: ;
+line:192 1
+
+type:KEYWORD
+token: case
+line:193 14
+
+type:VARIABLE
+token: FLOAT_NUMBER
+line:193 28
+
+type:PUNCTUATOR
+token: :
+line:194 1
+
+type:KEYWORD
+token: if
+line:194 16
+
+type:PUNCTUATOR
+token: (
+line:194 19
+
+type:CHAR_CONSTANT
+token: '0'
+line:194 23
+
+type:PUNCTUATOR
+token: <=
+line:194 27
+
+type:VARIABLE
+token: c
+line:194 30
+
+type:PUNCTUATOR
+token: &&
+line:194 34
+
+type:VARIABLE
+token: c
+line:194 37
+
+type:PUNCTUATOR
+token: <=
+line:194 41
+
+type:CHAR_CONSTANT
+token: '9'
+line:194 46
+
+type:PUNCTUATOR
+token: )
+line:195 1
+
+type:PUNCTUATOR
+token: {
+line:196 1
+
+type:VARIABLE
+token: token_buffer
+line:196 30
+
+type:PUNCTUATOR
+token: +=
+line:196 34
+
+type:VARIABLE
+token: c
+line:196 37
+
+type:PUNCTUATOR
+token: ;
+line:197 1
+
+type:KEYWORD
+token: return
+line:197 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:197 27
+
+type:PUNCTUATOR
+token: ;
+line:198 1
+
+type:PUNCTUATOR
+token: }
+line:199 1
+
+type:KEYWORD
+token: if
+line:199 16
+
+type:PUNCTUATOR
+token: (
+line:199 19
+
+type:VARIABLE
+token: c
+line:199 21
+
+type:PUNCTUATOR
+token: ==
+line:199 25
+
+type:CHAR_CONSTANT
+token: 'e'
+line:199 30
+
+type:PUNCTUATOR
+token: ||
+line:199 34
+
+type:VARIABLE
+token: c
+line:199 37
+
+type:PUNCTUATOR
+token: ==
+line:199 41
+
+type:CHAR_CONSTANT
+token: 'E'
+line:199 46
+
+type:PUNCTUATOR
+token: )
+line:200 1
+
+type:PUNCTUATOR
+token: {
+line:201 1
+
+type:VARIABLE
+token: dfa_status
+line:201 28
+
+type:PUNCTUATOR
+token: =
+line:201 31
+
+type:VARIABLE
+token: FLOAT_EXPONENT_PART
+line:201 52
+
+type:PUNCTUATOR
+token: ;
+line:202 1
+
+type:VARIABLE
+token: token_buffer
+line:202 30
+
+type:PUNCTUATOR
+token: +=
+line:202 34
+
+type:VARIABLE
+token: c
+line:202 37
+
+type:PUNCTUATOR
+token: ;
+line:203 1
+
+type:KEYWORD
+token: return
+line:203 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:203 27
+
+type:PUNCTUATOR
+token: ;
+line:204 1
+
+type:PUNCTUATOR
+token: }
+line:205 1
+
+type:KEYWORD
+token: if
+line:205 16
+
+type:PUNCTUATOR
+token: (
+line:205 19
+
+type:VARIABLE
+token: c
+line:205 21
+
+type:PUNCTUATOR
+token: ==
+line:205 25
+
+type:CHAR_CONSTANT
+token: 'f'
+line:205 30
+
+type:PUNCTUATOR
+token: ||
+line:205 34
+
+type:VARIABLE
+token: c
+line:205 37
+
+type:PUNCTUATOR
+token: ==
+line:205 41
+
+type:CHAR_CONSTANT
+token: 'F'
+line:205 46
+
+type:PUNCTUATOR
+token: )
+line:206 1
+
+type:PUNCTUATOR
+token: {
+line:207 1
+
+type:VARIABLE
+token: dfa_status
+line:207 28
+
+type:PUNCTUATOR
+token: =
+line:207 31
+
+type:VARIABLE
+token: FLOAT_TYPE
+line:207 43
+
+type:PUNCTUATOR
+token: ;
+line:208 1
+
+type:VARIABLE
+token: token_buffer
+line:208 30
+
+type:PUNCTUATOR
+token: +=
+line:208 34
+
+type:VARIABLE
+token: c
+line:208 37
+
+type:PUNCTUATOR
+token: ;
+line:209 1
+
+type:VARIABLE
+token: extended_buffer
+line:209 33
+
+type:PUNCTUATOR
+token: =
+line:209 36
+
+type:STRING_CONSTANT
+token: "FLOAT"
+line:209 45
+
+type:PUNCTUATOR
+token: ;
+line:210 1
+
+type:KEYWORD
+token: return
+line:210 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:210 27
+
+type:PUNCTUATOR
+token: ;
+line:211 1
+
+type:PUNCTUATOR
+token: }
+line:212 1
+
+type:KEYWORD
+token: if
+line:212 16
+
+type:PUNCTUATOR
+token: (
+line:212 19
+
+type:VARIABLE
+token: c
+line:212 21
+
+type:PUNCTUATOR
+token: ==
+line:212 25
+
+type:CHAR_CONSTANT
+token: 'l'
+line:212 30
+
+type:PUNCTUATOR
+token: ||
+line:212 34
+
+type:VARIABLE
+token: c
+line:212 37
+
+type:PUNCTUATOR
+token: ==
+line:212 41
+
+type:CHAR_CONSTANT
+token: 'L'
+line:212 46
+
+type:PUNCTUATOR
+token: )
+line:213 1
+
+type:PUNCTUATOR
+token: {
+line:214 1
+
+type:VARIABLE
+token: dfa_status
+line:214 28
+
+type:PUNCTUATOR
+token: =
+line:214 31
+
+type:VARIABLE
+token: LONG_DOUBLE_TYPE
+line:214 49
+
+type:PUNCTUATOR
+token: ;
+line:215 1
+
+type:VARIABLE
+token: token_buffer
+line:215 30
+
+type:PUNCTUATOR
+token: +=
+line:215 34
+
+type:VARIABLE
+token: c
+line:215 37
+
+type:PUNCTUATOR
+token: ;
+line:216 1
+
+type:VARIABLE
+token: extended_buffer
+line:216 33
+
+type:PUNCTUATOR
+token: =
+line:216 36
+
+type:STRING_CONSTANT
+token: "LONG DOUBLE"
+line:216 51
+
+type:PUNCTUATOR
+token: ;
+line:217 1
+
+type:KEYWORD
+token: return
+line:217 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:217 27
+
+type:PUNCTUATOR
+token: ;
+line:218 1
+
+type:PUNCTUATOR
+token: }
+line:219 1
+
+type:VARIABLE
+token: extended_buffer
+line:219 29
+
+type:PUNCTUATOR
+token: =
+line:219 32
+
+type:STRING_CONSTANT
+token: "DOUBLE"
+line:219 42
+
+type:PUNCTUATOR
+token: ;
+line:220 1
+
+type:VARIABLE
+token: type_buffer
+line:220 25
+
+type:PUNCTUATOR
+token: =
+line:220 28
+
+type:VARIABLE
+token: FLOAT_CONSTANT
+line:220 44
+
+type:PUNCTUATOR
+token: ;
+line:221 1
+
+type:VARIABLE
+token: flow_back
+line:221 23
+
+type:PUNCTUATOR
+token: =
+line:221 26
+
+type:VARIABLE
+token: c
+line:221 29
+
+type:PUNCTUATOR
+token: ;
+line:222 1
+
+type:KEYWORD
+token: return
+line:222 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:222 23
+
+type:PUNCTUATOR
+token: ;
+line:223 1
+
+type:KEYWORD
+token: case
+line:224 14
+
+type:VARIABLE
+token: SUF_INT_L
+line:224 25
+
+type:PUNCTUATOR
+token: :
+line:225 1
+
+type:KEYWORD
+token: if
+line:225 16
+
+type:PUNCTUATOR
+token: (
+line:225 19
+
+type:VARIABLE
+token: c
+line:225 21
+
+type:PUNCTUATOR
+token: ==
+line:225 25
+
+type:CHAR_CONSTANT
+token: 'l'
+line:225 30
+
+type:PUNCTUATOR
+token: ||
+line:225 34
+
+type:VARIABLE
+token: c
+line:225 37
+
+type:PUNCTUATOR
+token: ==
+line:225 41
+
+type:CHAR_CONSTANT
+token: 'L'
+line:225 46
+
+type:PUNCTUATOR
+token: )
+line:226 1
+
+type:PUNCTUATOR
+token: {
+line:227 1
+
+type:VARIABLE
+token: dfa_status
+line:227 28
+
+type:PUNCTUATOR
+token: =
+line:227 31
+
+type:VARIABLE
+token: SUF_INT_LL
+line:227 43
+
+type:PUNCTUATOR
+token: ;
+line:228 1
+
+type:VARIABLE
+token: token_buffer
+line:228 30
+
+type:PUNCTUATOR
+token: +=
+line:228 34
+
+type:VARIABLE
+token: c
+line:228 37
+
+type:PUNCTUATOR
+token: ;
+line:229 1
+
+type:VARIABLE
+token: extended_buffer
+line:229 33
+
+type:PUNCTUATOR
+token: +=
+line:229 37
+
+type:STRING_CONSTANT
+token: "LONG"
+line:229 45
+
+type:PUNCTUATOR
+token: ;
+line:230 1
+
+type:KEYWORD
+token: return
+line:230 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:230 27
+
+type:PUNCTUATOR
+token: ;
+line:231 1
+
+type:PUNCTUATOR
+token: }
+line:232 1
+
+type:VARIABLE
+token: type_buffer
+line:232 25
+
+type:PUNCTUATOR
+token: =
+line:232 28
+
+type:VARIABLE
+token: INTEGER_CONSTANT
+line:232 46
+
+type:PUNCTUATOR
+token: ;
+line:233 1
+
+type:VARIABLE
+token: flow_back
+line:233 23
+
+type:PUNCTUATOR
+token: =
+line:233 26
+
+type:VARIABLE
+token: c
+line:233 29
+
+type:PUNCTUATOR
+token: ;
+line:234 1
+
+type:KEYWORD
+token: return
+line:234 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:234 23
+
+type:PUNCTUATOR
+token: ;
+line:235 1
+
+type:KEYWORD
+token: case
+line:236 14
+
+type:VARIABLE
+token: SUF_INT_LL
+line:236 26
+
+type:PUNCTUATOR
+token: :
+line:237 1
+
+type:VARIABLE
+token: type_buffer
+line:237 25
+
+type:PUNCTUATOR
+token: =
+line:237 28
+
+type:VARIABLE
+token: INTEGER_CONSTANT
+line:237 46
+
+type:PUNCTUATOR
+token: ;
+line:238 1
+
+type:VARIABLE
+token: flow_back
+line:238 23
+
+type:PUNCTUATOR
+token: =
+line:238 26
+
+type:VARIABLE
+token: c
+line:238 29
+
+type:PUNCTUATOR
+token: ;
+line:239 1
+
+type:KEYWORD
+token: return
+line:239 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:239 23
+
+type:PUNCTUATOR
+token: ;
+line:240 1
+
+type:KEYWORD
+token: case
+line:241 14
+
+type:VARIABLE
+token: SUF_INT_UNSIGNED
+line:241 32
+
+type:PUNCTUATOR
+token: :
+line:242 1
+
+type:KEYWORD
+token: if
+line:242 16
+
+type:PUNCTUATOR
+token: (
+line:242 19
+
+type:VARIABLE
+token: c
+line:242 21
+
+type:PUNCTUATOR
+token: ==
+line:242 25
+
+type:CHAR_CONSTANT
+token: 'l'
+line:242 30
+
+type:PUNCTUATOR
+token: ||
+line:242 34
+
+type:VARIABLE
+token: c
+line:242 37
+
+type:PUNCTUATOR
+token: ==
+line:242 41
+
+type:CHAR_CONSTANT
+token: 'L'
+line:242 46
+
+type:PUNCTUATOR
+token: )
+line:243 1
+
+type:PUNCTUATOR
+token: {
+line:244 1
+
+type:VARIABLE
+token: dfa_status
+line:244 28
+
+type:PUNCTUATOR
+token: =
+line:244 31
+
+type:VARIABLE
+token: SUF_INT_L
+line:244 42
+
+type:PUNCTUATOR
+token: ;
+line:245 1
+
+type:VARIABLE
+token: token_buffer
+line:245 30
+
+type:PUNCTUATOR
+token: +=
+line:245 34
+
+type:VARIABLE
+token: c
+line:245 37
+
+type:PUNCTUATOR
+token: ;
+line:246 1
+
+type:VARIABLE
+token: extended_buffer
+line:246 33
+
+type:PUNCTUATOR
+token: +=
+line:246 37
+
+type:STRING_CONSTANT
+token: "LONG "
+line:246 46
+
+type:PUNCTUATOR
+token: ;
+line:247 1
+
+type:KEYWORD
+token: return
+line:247 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:247 27
+
+type:PUNCTUATOR
+token: ;
+line:248 1
+
+type:PUNCTUATOR
+token: }
+line:249 1
+
+type:VARIABLE
+token: type_buffer
+line:249 25
+
+type:PUNCTUATOR
+token: =
+line:249 28
+
+type:VARIABLE
+token: INTEGER_CONSTANT
+line:249 46
+
+type:PUNCTUATOR
+token: ;
+line:250 1
+
+type:VARIABLE
+token: extended_buffer
+line:250 29
+
+type:PUNCTUATOR
+token: +=
+line:250 33
+
+type:STRING_CONSTANT
+token: "INT"
+line:250 40
+
+type:PUNCTUATOR
+token: ;
+line:251 1
+
+type:VARIABLE
+token: flow_back
+line:251 23
+
+type:PUNCTUATOR
+token: =
+line:251 26
+
+type:VARIABLE
+token: c
+line:251 29
+
+type:PUNCTUATOR
+token: ;
+line:252 1
+
+type:KEYWORD
+token: return
+line:252 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:252 23
+
+type:PUNCTUATOR
+token: ;
+line:253 1
+
+type:KEYWORD
+token: case
+line:254 14
+
+type:VARIABLE
+token: HEX_PRE
+line:254 23
+
+type:PUNCTUATOR
+token: :
+line:255 1
+
+type:KEYWORD
+token: if
+line:255 16
+
+type:PUNCTUATOR
+token: (
+line:255 19
+
+type:CHAR_CONSTANT
+token: '0'
+line:255 23
+
+type:PUNCTUATOR
+token: <=
+line:255 27
+
+type:VARIABLE
+token: c
+line:255 30
+
+type:PUNCTUATOR
+token: &&
+line:255 34
+
+type:VARIABLE
+token: c
+line:255 37
+
+type:PUNCTUATOR
+token: <=
+line:255 41
+
+type:CHAR_CONSTANT
+token: '9'
+line:255 46
+
+type:PUNCTUATOR
+token: )
+line:256 1
+
+type:PUNCTUATOR
+token: {
+line:257 1
+
+type:VARIABLE
+token: dfa_status
+line:257 28
+
+type:PUNCTUATOR
+token: =
+line:257 31
+
+type:VARIABLE
+token: INT_NUMBER
+line:257 43
+
+type:PUNCTUATOR
+token: ;
+line:258 1
+
+type:VARIABLE
+token: token_buffer
+line:258 30
+
+type:PUNCTUATOR
+token: +=
+line:258 34
+
+type:VARIABLE
+token: c
+line:258 37
+
+type:PUNCTUATOR
+token: ;
+line:259 1
+
+type:KEYWORD
+token: return
+line:259 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:259 27
+
+type:PUNCTUATOR
+token: ;
+line:260 1
+
+type:PUNCTUATOR
+token: }
+line:261 1
+
+type:KEYWORD
+token: if
+line:261 16
+
+type:PUNCTUATOR
+token: (
+line:261 19
+
+type:VARIABLE
+token: c
+line:261 21
+
+type:PUNCTUATOR
+token: ==
+line:261 25
+
+type:CHAR_CONSTANT
+token: 'x'
+line:261 30
+
+type:PUNCTUATOR
+token: ||
+line:261 34
+
+type:VARIABLE
+token: c
+line:261 37
+
+type:PUNCTUATOR
+token: ==
+line:261 41
+
+type:CHAR_CONSTANT
+token: 'X'
+line:261 46
+
+type:PUNCTUATOR
+token: )
+line:262 1
+
+type:PUNCTUATOR
+token: {
+line:263 1
+
+type:VARIABLE
+token: dfa_status
+line:263 28
+
+type:PUNCTUATOR
+token: =
+line:263 31
+
+type:VARIABLE
+token: HEX
+line:263 36
+
+type:PUNCTUATOR
+token: ;
+line:264 1
+
+type:VARIABLE
+token: token_buffer
+line:264 30
+
+type:PUNCTUATOR
+token: +=
+line:264 34
+
+type:VARIABLE
+token: c
+line:264 37
+
+type:PUNCTUATOR
+token: ;
+line:265 1
+
+type:KEYWORD
+token: return
+line:265 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:265 27
+
+type:PUNCTUATOR
+token: ;
+line:266 1
+
+type:PUNCTUATOR
+token: }
+line:267 1
+
+type:VARIABLE
+token: type_buffer
+line:267 25
+
+type:PUNCTUATOR
+token: =
+line:267 28
+
+type:VARIABLE
+token: INTEGER_CONSTANT
+line:267 46
+
+type:PUNCTUATOR
+token: ;
+line:268 1
+
+type:VARIABLE
+token: flow_back
+line:268 23
+
+type:PUNCTUATOR
+token: =
+line:268 26
+
+type:VARIABLE
+token: c
+line:268 29
+
+type:PUNCTUATOR
+token: ;
+line:269 1
+
+type:KEYWORD
+token: return
+line:269 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:269 23
+
+type:PUNCTUATOR
+token: ;
+line:270 1
+
+type:KEYWORD
+token: case
+line:271 14
+
+type:VARIABLE
+token: HEX
+line:271 19
+
+type:PUNCTUATOR
+token: :
+line:272 1
+
+type:KEYWORD
+token: if
+line:272 16
+
+type:PUNCTUATOR
+token: (
+line:272 19
+
+type:CHAR_CONSTANT
+token: 'a'
+line:272 23
+
+type:PUNCTUATOR
+token: <=
+line:272 27
+
+type:VARIABLE
+token: c
+line:272 30
+
+type:PUNCTUATOR
+token: &&
+line:272 34
+
+type:VARIABLE
+token: c
+line:272 37
+
+type:PUNCTUATOR
+token: <=
+line:272 41
+
+type:CHAR_CONSTANT
+token: 'f'
+line:272 46
+
+type:PUNCTUATOR
+token: )
+line:273 1
+
+type:VARIABLE
+token: c
+line:273 19
+
+type:PUNCTUATOR
+token: =
+line:273 22
+
+type:VARIABLE
+token: c
+line:273 25
+
+type:PUNCTUATOR
+token: -
+line:273 28
+
+type:CHAR_CONSTANT
+token: 'a'
+line:273 33
+
+type:PUNCTUATOR
+token: +
+line:273 36
+
+type:CHAR_CONSTANT
+token: 'A'
+line:273 41
+
+type:PUNCTUATOR
+token: ;
+line:274 1
+
+type:KEYWORD
+token: if
+line:274 16
+
+type:PUNCTUATOR
+token: (
+line:274 19
+
+type:CHAR_CONSTANT
+token: '0'
+line:274 23
+
+type:PUNCTUATOR
+token: <=
+line:274 27
+
+type:VARIABLE
+token: c
+line:274 30
+
+type:PUNCTUATOR
+token: &&
+line:274 34
+
+type:VARIABLE
+token: c
+line:274 37
+
+type:PUNCTUATOR
+token: <=
+line:274 41
+
+type:CHAR_CONSTANT
+token: '9'
+line:274 46
+
+type:PUNCTUATOR
+token: ||
+line:274 50
+
+type:CHAR_CONSTANT
+token: 'A'
+line:274 55
+
+type:PUNCTUATOR
+token: <=
+line:274 59
+
+type:VARIABLE
+token: c
+line:274 62
+
+type:PUNCTUATOR
+token: &&
+line:274 66
+
+type:VARIABLE
+token: c
+line:274 69
+
+type:PUNCTUATOR
+token: <=
+line:274 73
+
+type:CHAR_CONSTANT
+token: 'F'
+line:274 78
+
+type:PUNCTUATOR
+token: )
+line:275 1
+
+type:PUNCTUATOR
+token: {
+line:276 1
+
+type:VARIABLE
+token: token_buffer
+line:276 30
+
+type:PUNCTUATOR
+token: +=
+line:276 34
+
+type:VARIABLE
+token: c
+line:276 37
+
+type:PUNCTUATOR
+token: ;
+line:277 1
+
+type:KEYWORD
+token: return
+line:277 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:277 27
+
+type:PUNCTUATOR
+token: ;
+line:278 1
+
+type:PUNCTUATOR
+token: }
+line:279 1
+
+type:KEYWORD
+token: if
+line:279 16
+
+type:PUNCTUATOR
+token: (
+line:279 19
+
+type:VARIABLE
+token: c
+line:279 21
+
+type:PUNCTUATOR
+token: ==
+line:279 25
+
+type:CHAR_CONSTANT
+token: 'l'
+line:279 30
+
+type:PUNCTUATOR
+token: ||
+line:279 34
+
+type:VARIABLE
+token: c
+line:279 37
+
+type:PUNCTUATOR
+token: ==
+line:279 41
+
+type:CHAR_CONSTANT
+token: 'L'
+line:279 46
+
+type:PUNCTUATOR
+token: )
+line:280 1
+
+type:PUNCTUATOR
+token: {
+line:281 1
+
+type:VARIABLE
+token: dfa_status
+line:281 28
+
+type:PUNCTUATOR
+token: =
+line:281 31
+
+type:VARIABLE
+token: SUF_INT_L
+line:281 42
+
+type:PUNCTUATOR
+token: ;
+line:282 1
+
+type:VARIABLE
+token: token_buffer
+line:282 30
+
+type:PUNCTUATOR
+token: +=
+line:282 34
+
+type:VARIABLE
+token: c
+line:282 37
+
+type:PUNCTUATOR
+token: ;
+line:283 1
+
+type:VARIABLE
+token: extended_buffer
+line:283 33
+
+type:PUNCTUATOR
+token: +=
+line:283 37
+
+type:STRING_CONSTANT
+token: "LONG "
+line:283 46
+
+type:PUNCTUATOR
+token: ;
+line:284 1
+
+type:KEYWORD
+token: return
+line:284 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:284 27
+
+type:PUNCTUATOR
+token: ;
+line:285 1
+
+type:PUNCTUATOR
+token: }
+line:286 1
+
+type:KEYWORD
+token: if
+line:286 16
+
+type:PUNCTUATOR
+token: (
+line:286 19
+
+type:VARIABLE
+token: c
+line:286 21
+
+type:PUNCTUATOR
+token: ==
+line:286 25
+
+type:CHAR_CONSTANT
+token: 'u'
+line:286 30
+
+type:PUNCTUATOR
+token: ||
+line:286 34
+
+type:VARIABLE
+token: c
+line:286 37
+
+type:PUNCTUATOR
+token: ==
+line:286 41
+
+type:CHAR_CONSTANT
+token: 'U'
+line:286 46
+
+type:PUNCTUATOR
+token: )
+line:287 1
+
+type:PUNCTUATOR
+token: {
+line:288 1
+
+type:VARIABLE
+token: dfa_status
+line:288 28
+
+type:PUNCTUATOR
+token: =
+line:288 31
+
+type:VARIABLE
+token: SUF_INT_UNSIGNED
+line:288 49
+
+type:PUNCTUATOR
+token: ;
+line:289 1
+
+type:VARIABLE
+token: token_buffer
+line:289 30
+
+type:PUNCTUATOR
+token: +=
+line:289 34
+
+type:VARIABLE
+token: c
+line:289 37
+
+type:PUNCTUATOR
+token: ;
+line:290 1
+
+type:VARIABLE
+token: extended_buffer
+line:290 33
+
+type:PUNCTUATOR
+token: +=
+line:290 37
+
+type:STRING_CONSTANT
+token: "UNSIGNED "
+line:290 50
+
+type:PUNCTUATOR
+token: ;
+line:291 1
+
+type:KEYWORD
+token: return
+line:291 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:291 27
+
+type:PUNCTUATOR
+token: ;
+line:292 1
+
+type:PUNCTUATOR
+token: }
+line:293 1
+
+type:VARIABLE
+token: type_buffer
+line:293 25
+
+type:PUNCTUATOR
+token: =
+line:293 28
+
+type:VARIABLE
+token: INTEGER_CONSTANT
+line:293 46
+
+type:PUNCTUATOR
+token: ;
+line:294 1
+
+type:VARIABLE
+token: flow_back
+line:294 23
+
+type:PUNCTUATOR
+token: =
+line:294 26
+
+type:VARIABLE
+token: c
+line:294 29
+
+type:PUNCTUATOR
+token: ;
+line:295 1
+
+type:KEYWORD
+token: return
+line:295 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:295 23
+
+type:PUNCTUATOR
+token: ;
+line:296 1
+
+type:KEYWORD
+token: case
+line:297 14
+
+type:VARIABLE
+token: FLOAT_EXPONENT_PART
+line:297 35
+
+type:PUNCTUATOR
+token: :
+line:298 1
+
+type:KEYWORD
+token: if
+line:298 16
+
+type:PUNCTUATOR
+token: (
+line:298 19
+
+type:VARIABLE
+token: c
+line:298 21
+
+type:PUNCTUATOR
+token: ==
+line:298 25
+
+type:CHAR_CONSTANT
+token: '+'
+line:298 30
+
+type:PUNCTUATOR
+token: )
+line:299 1
+
+type:PUNCTUATOR
+token: {
+line:300 1
+
+type:VARIABLE
+token: dfa_status
+line:300 28
+
+type:PUNCTUATOR
+token: =
+line:300 31
+
+type:VARIABLE
+token: POSITIVE_FLOAT_EXPONENT_PART
+line:300 61
+
+type:PUNCTUATOR
+token: ;
+line:301 1
+
+type:VARIABLE
+token: token_buffer
+line:301 30
+
+type:PUNCTUATOR
+token: +=
+line:301 34
+
+type:VARIABLE
+token: c
+line:301 37
+
+type:PUNCTUATOR
+token: ;
+line:302 1
+
+type:KEYWORD
+token: return
+line:302 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:302 27
+
+type:PUNCTUATOR
+token: ;
+line:303 1
+
+type:PUNCTUATOR
+token: }
+line:304 1
+
+type:KEYWORD
+token: if
+line:304 16
+
+type:PUNCTUATOR
+token: (
+line:304 19
+
+type:VARIABLE
+token: c
+line:304 21
+
+type:PUNCTUATOR
+token: ==
+line:304 25
+
+type:CHAR_CONSTANT
+token: '-'
+line:304 30
+
+type:PUNCTUATOR
+token: )
+line:305 1
+
+type:PUNCTUATOR
+token: {
+line:306 1
+
+type:VARIABLE
+token: dfa_status
+line:306 28
+
+type:PUNCTUATOR
+token: =
+line:306 31
+
+type:VARIABLE
+token: NEGATIVE_FLOAT_EXPONENT_PART
+line:306 61
+
+type:PUNCTUATOR
+token: ;
+line:307 1
+
+type:VARIABLE
+token: token_buffer
+line:307 30
+
+type:PUNCTUATOR
+token: +=
+line:307 34
+
+type:VARIABLE
+token: c
+line:307 37
+
+type:PUNCTUATOR
+token: ;
+line:308 1
+
+type:KEYWORD
+token: return
+line:308 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:308 27
+
+type:PUNCTUATOR
+token: ;
+line:309 1
+
+type:PUNCTUATOR
+token: }
+line:310 1
+
+type:KEYWORD
+token: if
+line:310 16
+
+type:PUNCTUATOR
+token: (
+line:310 19
+
+type:VARIABLE
+token: c
+line:310 21
+
+type:PUNCTUATOR
+token: >=
+line:310 25
+
+type:CHAR_CONSTANT
+token: '0'
+line:310 30
+
+type:PUNCTUATOR
+token: &&
+line:310 34
+
+type:VARIABLE
+token: c
+line:310 37
+
+type:PUNCTUATOR
+token: <=
+line:310 41
+
+type:CHAR_CONSTANT
+token: '9'
+line:310 46
+
+type:PUNCTUATOR
+token: )
+line:311 1
+
+type:PUNCTUATOR
+token: {
+line:312 1
+
+type:VARIABLE
+token: dfa_status
+line:312 28
+
+type:PUNCTUATOR
+token: =
+line:312 31
+
+type:VARIABLE
+token: POSITIVE_FLOAT_EXPONENT_PART
+line:312 61
+
+type:PUNCTUATOR
+token: ;
+line:313 1
+
+type:VARIABLE
+token: token_buffer
+line:313 30
+
+type:PUNCTUATOR
+token: +=
+line:313 34
+
+type:VARIABLE
+token: c
+line:313 37
+
+type:PUNCTUATOR
+token: ;
+line:314 1
+
+type:KEYWORD
+token: return
+line:314 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:314 27
+
+type:PUNCTUATOR
+token: ;
+line:315 1
+
+type:PUNCTUATOR
+token: }
+line:316 1
+
+type:VARIABLE
+token: dfa_status
+line:316 24
+
+type:PUNCTUATOR
+token: =
+line:316 27
+
+type:VARIABLE
+token: DFA_ERROR
+line:316 38
+
+type:PUNCTUATOR
+token: ;
+line:317 1
+
+type:VARIABLE
+token: type_buffer
+line:317 25
+
+type:PUNCTUATOR
+token: =
+line:317 28
+
+type:VARIABLE
+token: ERROR
+line:317 35
+
+type:PUNCTUATOR
+token: ;
+line:318 1
+
+type:VARIABLE
+token: extended_buffer
+line:318 29
+
+type:PUNCTUATOR
+token: +=
+line:318 33
+
+type:STRING_CONSTANT
+token: "FLOAT EXPONENT PART ERROR"
+line:318 62
+
+type:PUNCTUATOR
+token: ;
+line:319 1
+
+type:VARIABLE
+token: flow_back
+line:319 23
+
+type:PUNCTUATOR
+token: =
+line:319 26
+
+type:VARIABLE
+token: c
+line:319 29
+
+type:PUNCTUATOR
+token: ;
+line:320 1
+
+type:KEYWORD
+token: return
+line:320 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:320 23
+
+type:PUNCTUATOR
+token: ;
+line:321 1
+
+type:KEYWORD
+token: case
+line:322 14
+
+type:VARIABLE
+token: POSITIVE_FLOAT_EXPONENT_PART
+line:322 44
+
+type:PUNCTUATOR
+token: :
+line:323 1
+
+type:KEYWORD
+token: if
+line:323 16
+
+type:PUNCTUATOR
+token: (
+line:323 19
+
+type:VARIABLE
+token: c
+line:323 21
+
+type:PUNCTUATOR
+token: ==
+line:323 25
+
+type:CHAR_CONSTANT
+token: 'f'
+line:323 30
+
+type:PUNCTUATOR
+token: ||
+line:323 34
+
+type:VARIABLE
+token: c
+line:323 37
+
+type:PUNCTUATOR
+token: ==
+line:323 41
+
+type:CHAR_CONSTANT
+token: 'F'
+line:323 46
+
+type:PUNCTUATOR
+token: )
+line:324 1
+
+type:PUNCTUATOR
+token: {
+line:325 1
+
+type:VARIABLE
+token: dfa_status
+line:325 28
+
+type:PUNCTUATOR
+token: =
+line:325 31
+
+type:VARIABLE
+token: FLOAT_TYPE
+line:325 43
+
+type:PUNCTUATOR
+token: ;
+line:326 1
+
+type:VARIABLE
+token: token_buffer
+line:326 30
+
+type:PUNCTUATOR
+token: +=
+line:326 34
+
+type:VARIABLE
+token: c
+line:326 37
+
+type:PUNCTUATOR
+token: ;
+line:327 1
+
+type:VARIABLE
+token: extended_buffer
+line:327 33
+
+type:PUNCTUATOR
+token: +=
+line:327 37
+
+type:STRING_CONSTANT
+token: "FLOAT"
+line:327 46
+
+type:PUNCTUATOR
+token: ;
+line:328 1
+
+type:KEYWORD
+token: return
+line:328 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:328 27
+
+type:PUNCTUATOR
+token: ;
+line:329 1
+
+type:PUNCTUATOR
+token: }
+line:330 1
+
+type:KEYWORD
+token: if
+line:330 16
+
+type:PUNCTUATOR
+token: (
+line:330 19
+
+type:VARIABLE
+token: c
+line:330 21
+
+type:PUNCTUATOR
+token: ==
+line:330 25
+
+type:CHAR_CONSTANT
+token: 'l'
+line:330 30
+
+type:PUNCTUATOR
+token: ||
+line:330 34
+
+type:VARIABLE
+token: c
+line:330 37
+
+type:PUNCTUATOR
+token: ==
+line:330 41
+
+type:CHAR_CONSTANT
+token: 'L'
+line:330 46
+
+type:PUNCTUATOR
+token: )
+line:331 1
+
+type:PUNCTUATOR
+token: {
+line:332 1
+
+type:VARIABLE
+token: dfa_status
+line:332 28
+
+type:PUNCTUATOR
+token: =
+line:332 31
+
+type:VARIABLE
+token: LONG_DOUBLE_TYPE
+line:332 49
+
+type:PUNCTUATOR
+token: ;
+line:333 1
+
+type:VARIABLE
+token: token_buffer
+line:333 30
+
+type:PUNCTUATOR
+token: +=
+line:333 34
+
+type:VARIABLE
+token: c
+line:333 37
+
+type:PUNCTUATOR
+token: ;
+line:334 1
+
+type:VARIABLE
+token: extended_buffer
+line:334 33
+
+type:PUNCTUATOR
+token: +=
+line:334 37
+
+type:STRING_CONSTANT
+token: "LONG DOUBLE"
+line:334 52
+
+type:PUNCTUATOR
+token: ;
+line:335 1
+
+type:KEYWORD
+token: return
+line:335 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:335 27
+
+type:PUNCTUATOR
+token: ;
+line:336 1
+
+type:PUNCTUATOR
+token: }
+line:337 1
+
+type:KEYWORD
+token: if
+line:337 16
+
+type:PUNCTUATOR
+token: (
+line:337 19
+
+type:CHAR_CONSTANT
+token: '0'
+line:337 23
+
+type:PUNCTUATOR
+token: <=
+line:337 27
+
+type:VARIABLE
+token: c
+line:337 30
+
+type:PUNCTUATOR
+token: &&
+line:337 34
+
+type:VARIABLE
+token: c
+line:337 37
+
+type:PUNCTUATOR
+token: <=
+line:337 41
+
+type:CHAR_CONSTANT
+token: '9'
+line:337 46
+
+type:PUNCTUATOR
+token: )
+line:338 1
+
+type:PUNCTUATOR
+token: {
+line:339 1
+
+type:VARIABLE
+token: token_buffer
+line:339 30
+
+type:PUNCTUATOR
+token: +=
+line:339 34
+
+type:VARIABLE
+token: c
+line:339 37
+
+type:PUNCTUATOR
+token: ;
+line:340 1
+
+type:KEYWORD
+token: return
+line:340 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:340 27
+
+type:PUNCTUATOR
+token: ;
+line:341 1
+
+type:PUNCTUATOR
+token: }
+line:342 1
+
+type:VARIABLE
+token: flow_back
+line:342 23
+
+type:PUNCTUATOR
+token: =
+line:342 26
+
+type:VARIABLE
+token: c
+line:342 29
+
+type:PUNCTUATOR
+token: ;
+line:343 1
+
+type:VARIABLE
+token: extended_buffer
+line:343 29
+
+type:PUNCTUATOR
+token: +=
+line:343 33
+
+type:STRING_CONSTANT
+token: "DOUBLE"
+line:343 43
+
+type:PUNCTUATOR
+token: ;
+line:344 1
+
+type:VARIABLE
+token: type_buffer
+line:344 25
+
+type:PUNCTUATOR
+token: =
+line:344 28
+
+type:VARIABLE
+token: FLOAT_CONSTANT
+line:344 44
+
+type:PUNCTUATOR
+token: ;
+line:345 1
+
+type:KEYWORD
+token: return
+line:345 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:345 23
+
+type:PUNCTUATOR
+token: ;
+line:346 1
+
+type:KEYWORD
+token: case
+line:347 14
+
+type:VARIABLE
+token: NEGATIVE_FLOAT_EXPONENT_PART
+line:347 44
+
+type:PUNCTUATOR
+token: :
+line:348 1
+
+type:KEYWORD
+token: if
+line:348 16
+
+type:PUNCTUATOR
+token: (
+line:348 19
+
+type:VARIABLE
+token: c
+line:348 21
+
+type:PUNCTUATOR
+token: ==
+line:348 25
+
+type:CHAR_CONSTANT
+token: 'f'
+line:348 30
+
+type:PUNCTUATOR
+token: ||
+line:348 34
+
+type:VARIABLE
+token: c
+line:348 37
+
+type:PUNCTUATOR
+token: ==
+line:348 41
+
+type:CHAR_CONSTANT
+token: 'F'
+line:348 46
+
+type:PUNCTUATOR
+token: )
+line:349 1
+
+type:PUNCTUATOR
+token: {
+line:350 1
+
+type:VARIABLE
+token: dfa_status
+line:350 28
+
+type:PUNCTUATOR
+token: =
+line:350 31
+
+type:VARIABLE
+token: FLOAT_TYPE
+line:350 43
+
+type:PUNCTUATOR
+token: ;
+line:351 1
+
+type:VARIABLE
+token: token_buffer
+line:351 30
+
+type:PUNCTUATOR
+token: +=
+line:351 34
+
+type:VARIABLE
+token: c
+line:351 37
+
+type:PUNCTUATOR
+token: ;
+line:352 1
+
+type:VARIABLE
+token: extended_buffer
+line:352 33
+
+type:PUNCTUATOR
+token: +=
+line:352 37
+
+type:STRING_CONSTANT
+token: "FLOAT"
+line:352 46
+
+type:PUNCTUATOR
+token: ;
+line:353 1
+
+type:KEYWORD
+token: return
+line:353 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:353 27
+
+type:PUNCTUATOR
+token: ;
+line:354 1
+
+type:PUNCTUATOR
+token: }
+line:355 1
+
+type:KEYWORD
+token: if
+line:355 16
+
+type:PUNCTUATOR
+token: (
+line:355 19
+
+type:VARIABLE
+token: c
+line:355 21
+
+type:PUNCTUATOR
+token: ==
+line:355 25
+
+type:CHAR_CONSTANT
+token: 'l'
+line:355 30
+
+type:PUNCTUATOR
+token: ||
+line:355 34
+
+type:VARIABLE
+token: c
+line:355 37
+
+type:PUNCTUATOR
+token: ==
+line:355 41
+
+type:CHAR_CONSTANT
+token: 'L'
+line:355 46
+
+type:PUNCTUATOR
+token: )
+line:356 1
+
+type:PUNCTUATOR
+token: {
+line:357 1
+
+type:VARIABLE
+token: dfa_status
+line:357 28
+
+type:PUNCTUATOR
+token: =
+line:357 31
+
+type:VARIABLE
+token: LONG_DOUBLE_TYPE
+line:357 49
+
+type:PUNCTUATOR
+token: ;
+line:358 1
+
+type:VARIABLE
+token: token_buffer
+line:358 30
+
+type:PUNCTUATOR
+token: +=
+line:358 34
+
+type:VARIABLE
+token: c
+line:358 37
+
+type:PUNCTUATOR
+token: ;
+line:359 1
+
+type:VARIABLE
+token: extended_buffer
+line:359 33
+
+type:PUNCTUATOR
+token: +=
+line:359 37
+
+type:STRING_CONSTANT
+token: "LONG DOUBLE"
+line:359 52
+
+type:PUNCTUATOR
+token: ;
+line:360 1
+
+type:KEYWORD
+token: return
+line:360 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:360 27
+
+type:PUNCTUATOR
+token: ;
+line:361 1
+
+type:PUNCTUATOR
+token: }
+line:362 1
+
+type:KEYWORD
+token: if
+line:362 16
+
+type:PUNCTUATOR
+token: (
+line:362 19
+
+type:CHAR_CONSTANT
+token: '0'
+line:362 23
+
+type:PUNCTUATOR
+token: <=
+line:362 27
+
+type:VARIABLE
+token: c
+line:362 30
+
+type:PUNCTUATOR
+token: &&
+line:362 34
+
+type:VARIABLE
+token: c
+line:362 37
+
+type:PUNCTUATOR
+token: <=
+line:362 41
+
+type:CHAR_CONSTANT
+token: '9'
+line:362 46
+
+type:PUNCTUATOR
+token: )
+line:363 1
+
+type:PUNCTUATOR
+token: {
+line:364 1
+
+type:VARIABLE
+token: token_buffer
+line:364 30
+
+type:PUNCTUATOR
+token: +=
+line:364 34
+
+type:VARIABLE
+token: c
+line:364 37
+
+type:PUNCTUATOR
+token: ;
+line:365 1
+
+type:KEYWORD
+token: return
+line:365 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:365 27
+
+type:PUNCTUATOR
+token: ;
+line:366 1
+
+type:PUNCTUATOR
+token: }
+line:367 1
+
+type:VARIABLE
+token: flow_back
+line:367 23
+
+type:PUNCTUATOR
+token: =
+line:367 26
+
+type:VARIABLE
+token: c
+line:367 29
+
+type:PUNCTUATOR
+token: ;
+line:368 1
+
+type:VARIABLE
+token: extended_buffer
+line:368 29
+
+type:PUNCTUATOR
+token: +=
+line:368 33
+
+type:STRING_CONSTANT
+token: "DOUBLE"
+line:368 43
+
+type:PUNCTUATOR
+token: ;
+line:369 1
+
+type:VARIABLE
+token: type_buffer
+line:369 25
+
+type:PUNCTUATOR
+token: =
+line:369 28
+
+type:VARIABLE
+token: FLOAT_CONSTANT
+line:369 44
+
+type:PUNCTUATOR
+token: ;
+line:370 1
+
+type:KEYWORD
+token: return
+line:370 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:370 23
+
+type:PUNCTUATOR
+token: ;
+line:371 1
+
+type:KEYWORD
+token: case
+line:372 14
+
+type:VARIABLE
+token: FLOAT_TYPE
+line:372 26
+
+type:PUNCTUATOR
+token: :
+line:373 1
+
+type:VARIABLE
+token: flow_back
+line:373 23
+
+type:PUNCTUATOR
+token: =
+line:373 26
+
+type:VARIABLE
+token: c
+line:373 29
+
+type:PUNCTUATOR
+token: ;
+line:374 1
+
+type:VARIABLE
+token: type_buffer
+line:374 25
+
+type:PUNCTUATOR
+token: =
+line:374 28
+
+type:VARIABLE
+token: FLOAT_CONSTANT
+line:374 44
+
+type:PUNCTUATOR
+token: ;
+line:375 1
+
+type:KEYWORD
+token: return
+line:375 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:375 23
+
+type:PUNCTUATOR
+token: ;
+line:376 1
+
+type:KEYWORD
+token: case
+line:376 14
+
+type:VARIABLE
+token: LONG_DOUBLE_TYPE
+line:376 32
+
+type:PUNCTUATOR
+token: :
+line:377 1
+
+type:VARIABLE
+token: flow_back
+line:377 23
+
+type:PUNCTUATOR
+token: =
+line:377 26
+
+type:VARIABLE
+token: c
+line:377 29
+
+type:PUNCTUATOR
+token: ;
+line:378 1
+
+type:VARIABLE
+token: type_buffer
+line:378 25
+
+type:PUNCTUATOR
+token: =
+line:378 28
+
+type:VARIABLE
+token: FLOAT_CONSTANT
+line:378 44
+
+type:PUNCTUATOR
+token: ;
+line:379 1
+
+type:KEYWORD
+token: return
+line:379 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:379 23
+
+type:PUNCTUATOR
+token: ;
+line:380 1
+
+type:KEYWORD
+token: case
+line:380 14
+
+type:VARIABLE
+token: ZERO_POINT_FLOAT
+line:380 32
+
+type:PUNCTUATOR
+token: :
+line:381 1
+
+type:KEYWORD
+token: if
+line:381 16
+
+type:PUNCTUATOR
+token: (
+line:381 18
+
+type:CHAR_CONSTANT
+token: '0'
+line:381 22
+
+type:PUNCTUATOR
+token: <=
+line:381 25
+
+type:VARIABLE
+token: c
+line:381 27
+
+type:PUNCTUATOR
+token: &&
+line:381 30
+
+type:VARIABLE
+token: c
+line:381 32
+
+type:PUNCTUATOR
+token: <=
+line:381 35
+
+type:CHAR_CONSTANT
+token: '9'
+line:381 39
+
+type:PUNCTUATOR
+token: )
+line:381 41
+
+type:PUNCTUATOR
+token: {
+line:382 1
+
+type:VARIABLE
+token: dfa_status
+line:382 28
+
+type:PUNCTUATOR
+token: =
+line:382 30
+
+type:VARIABLE
+token: FLOAT_NUMBER
+line:382 43
+
+type:PUNCTUATOR
+token: ;
+line:383 1
+
+type:VARIABLE
+token: token_buffer
+line:383 30
+
+type:PUNCTUATOR
+token: +=
+line:383 33
+
+type:VARIABLE
+token: c
+line:383 35
+
+type:PUNCTUATOR
+token: ;
+line:384 1
+
+type:KEYWORD
+token: return
+line:384 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:384 27
+
+type:PUNCTUATOR
+token: ;
+line:385 1
+
+type:PUNCTUATOR
+token: }
+line:386 1
+
+type:KEYWORD
+token: if
+line:386 16
+
+type:PUNCTUATOR
+token: (
+line:386 18
+
+type:VARIABLE
+token: c
+line:386 20
+
+type:PUNCTUATOR
+token: ==
+line:386 23
+
+type:CHAR_CONSTANT
+token: '.'
+line:386 27
+
+type:PUNCTUATOR
+token: )
+line:386 29
+
+type:PUNCTUATOR
+token: {
+line:387 1
+
+type:VARIABLE
+token: dfa_status
+line:387 28
+
+type:PUNCTUATOR
+token: =
+line:387 30
+
+type:VARIABLE
+token: PUNCTUATOR_DFA
+line:387 45
+
+type:PUNCTUATOR
+token: ;
+line:388 1
+
+type:VARIABLE
+token: token_buffer
+line:388 30
+
+type:PUNCTUATOR
+token: +=
+line:388 33
+
+type:VARIABLE
+token: c
+line:388 35
+
+type:PUNCTUATOR
+token: ;
+line:389 1
+
+type:VARIABLE
+token: trie_punctuator
+line:389 33
+
+type:PUNCTUATOR
+token: =
+line:389 35
+
+type:VARIABLE
+token: punctuator
+line:389 46
+
+type:PUNCTUATOR
+token: .
+line:389 48
+
+type:VARIABLE
+token: node
+line:389 53
+
+type:PUNCTUATOR
+token: [
+line:389 55
+
+type:VARIABLE
+token: trie_punctuator
+line:389 71
+
+type:PUNCTUATOR
+token: ]
+line:389 73
+
+type:PUNCTUATOR
+token: .
+line:389 75
+
+type:VARIABLE
+token: point
+line:389 81
+
+type:PUNCTUATOR
+token: [
+line:389 83
+
+type:CHAR_CONSTANT
+token: '.'
+line:389 87
+
+type:PUNCTUATOR
+token: ]
+line:389 89
+
+type:PUNCTUATOR
+token: ;
+line:390 1
+
+type:VARIABLE
+token: trie_punctuator
+line:390 33
+
+type:PUNCTUATOR
+token: =
+line:390 35
+
+type:VARIABLE
+token: punctuator
+line:390 46
+
+type:PUNCTUATOR
+token: .
+line:390 48
+
+type:VARIABLE
+token: node
+line:390 53
+
+type:PUNCTUATOR
+token: [
+line:390 55
+
+type:VARIABLE
+token: trie_punctuator
+line:390 71
+
+type:PUNCTUATOR
+token: ]
+line:390 73
+
+type:PUNCTUATOR
+token: .
+line:390 75
+
+type:VARIABLE
+token: point
+line:390 81
+
+type:PUNCTUATOR
+token: [
+line:390 83
+
+type:CHAR_CONSTANT
+token: '.'
+line:390 87
+
+type:PUNCTUATOR
+token: ]
+line:390 89
+
+type:PUNCTUATOR
+token: ;
+line:391 1
+
+type:KEYWORD
+token: return
+line:391 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:391 27
+
+type:PUNCTUATOR
+token: ;
+line:392 1
+
+type:PUNCTUATOR
+token: }
+line:393 1
+
+type:VARIABLE
+token: flow_back
+line:393 23
+
+type:PUNCTUATOR
+token: =
+line:393 25
+
+type:VARIABLE
+token: c
+line:393 27
+
+type:PUNCTUATOR
+token: ;
+line:394 1
+
+type:VARIABLE
+token: type_buffer
+line:394 25
+
+type:PUNCTUATOR
+token: =
+line:394 27
+
+type:VARIABLE
+token: PUNCTUATOR
+line:394 38
+
+type:PUNCTUATOR
+token: ;
+line:395 1
+
+type:KEYWORD
+token: return
+line:395 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:395 23
+
+type:PUNCTUATOR
+token: ;
+line:396 1
+
+type:KEYWORD
+token: case
+line:396 14
+
+type:VARIABLE
+token: CHARACTER_START
+line:396 31
+
+type:PUNCTUATOR
+token: :
+line:397 1
+
+type:KEYWORD
+token: if
+line:397 16
+
+type:PUNCTUATOR
+token: (
+line:397 19
+
+type:VARIABLE
+token: c
+line:397 21
+
+type:PUNCTUATOR
+token: ==
+line:397 25
+
+type:CHAR_CONSTANT
+token: '\\'
+line:397 31
+
+type:PUNCTUATOR
+token: )
+line:398 1
+
+type:PUNCTUATOR
+token: {
+line:399 1
+
+type:VARIABLE
+token: token_buffer
+line:399 30
+
+type:PUNCTUATOR
+token: +=
+line:399 34
+
+type:VARIABLE
+token: c
+line:399 37
+
+type:PUNCTUATOR
+token: ;
+line:400 1
+
+type:VARIABLE
+token: dfa_status
+line:400 28
+
+type:PUNCTUATOR
+token: =
+line:400 31
+
+type:VARIABLE
+token: ESCAPE_CHARACTER
+line:400 49
+
+type:PUNCTUATOR
+token: ;
+line:401 1
+
+type:KEYWORD
+token: return
+line:401 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:401 27
+
+type:PUNCTUATOR
+token: ;
+line:402 1
+
+type:PUNCTUATOR
+token: }
+line:403 1
+
+type:KEYWORD
+token: if
+line:403 16
+
+type:PUNCTUATOR
+token: (
+line:403 19
+
+type:VARIABLE
+token: c
+line:403 21
+
+type:PUNCTUATOR
+token: ==
+line:403 25
+
+type:CHAR_CONSTANT
+token: '\''
+line:403 31
+
+type:PUNCTUATOR
+token: )
+line:404 1
+
+type:PUNCTUATOR
+token: {
+line:405 1
+
+type:VARIABLE
+token: token_buffer
+line:405 30
+
+type:PUNCTUATOR
+token: +=
+line:405 34
+
+type:VARIABLE
+token: c
+line:405 37
+
+type:PUNCTUATOR
+token: ;
+line:406 1
+
+type:VARIABLE
+token: dfa_status
+line:406 28
+
+type:PUNCTUATOR
+token: =
+line:406 31
+
+type:VARIABLE
+token: DFA_ERROR
+line:406 42
+
+type:PUNCTUATOR
+token: ;
+line:407 1
+
+type:VARIABLE
+token: extended_buffer
+line:407 33
+
+type:PUNCTUATOR
+token: +=
+line:407 37
+
+type:STRING_CONSTANT
+token: "EMPTY CHARACTER"
+line:407 56
+
+type:PUNCTUATOR
+token: ;
+line:408 1
+
+type:VARIABLE
+token: type_buffer
+line:408 29
+
+type:PUNCTUATOR
+token: =
+line:408 32
+
+type:VARIABLE
+token: ERROR
+line:408 39
+
+type:PUNCTUATOR
+token: ;
+line:409 1
+
+type:KEYWORD
+token: return
+line:409 24
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:409 27
+
+type:PUNCTUATOR
+token: ;
+line:410 1
+
+type:PUNCTUATOR
+token: }
+line:411 1
+
+type:VARIABLE
+token: dfa_status
+line:411 24
+
+type:PUNCTUATOR
+token: =
+line:411 27
+
+type:VARIABLE
+token: CHARACTER
+line:411 38
+
+type:PUNCTUATOR
+token: ;
+line:412 1
+
+type:VARIABLE
+token: token_buffer
+line:412 26
+
+type:PUNCTUATOR
+token: +=
+line:412 30
+
+type:VARIABLE
+token: c
+line:412 33
+
+type:PUNCTUATOR
+token: ;
+line:413 1
+
+type:KEYWORD
+token: return
+line:413 20
+
+type:INTEGER_CONSTANT
+token: 0
+line:413 23
+
+type:PUNCTUATOR
+token: ;
+line:414 1
+
+type:KEYWORD
+token: case
+line:414 14
+
+type:VARIABLE
+token: ESCAPE_CHARACTER
+line:414 32
+
+type:PUNCTUATOR
+token: :
+line:415 1
+
+type:VARIABLE
+token: token_buffer
+line:415 26
+
+type:PUNCTUATOR
+token: +=
+line:415 30
+
+type:VARIABLE
+token: c
+line:415 33
+
+type:PUNCTUATOR
+token: ;
+line:416 1
+
+type:VARIABLE
+token: dfa_status
+line:416 24
+
+type:PUNCTUATOR
+token: =
+line:416 27
+
+type:VARIABLE
+token: SPECIAL_CHARACTER
+line:416 46
+
+type:PUNCTUATOR
+token: ;
+line:417 1
+
+type:KEYWORD
+token: return
+line:417 20
+
+type:INTEGER_CONSTANT
+token: 0
+line:417 23
+
+type:PUNCTUATOR
+token: ;
+line:418 1
+
+type:KEYWORD
+token: case
+line:418 14
+
+type:VARIABLE
+token: CHARACTER
+line:418 25
+
+type:PUNCTUATOR
+token: :
+line:419 1
+
+type:KEYWORD
+token: if
+line:419 13
+
+type:PUNCTUATOR
+token: (
+line:419 15
+
+type:VARIABLE
+token: c
+line:419 17
+
+type:PUNCTUATOR
+token: ==
+line:419 20
+
+type:CHAR_CONSTANT
+token: '\''
+line:419 25
+
+type:PUNCTUATOR
+token: )
+line:419 27
+
+type:PUNCTUATOR
+token: {
+line:420 1
+
+type:VARIABLE
+token: token_buffer
+line:420 24
+
+type:PUNCTUATOR
+token: +=
+line:420 27
+
+type:VARIABLE
+token: c
+line:420 29
+
+type:PUNCTUATOR
+token: ;
+line:421 1
+
+type:VARIABLE
+token: type_buffer
+line:421 23
+
+type:PUNCTUATOR
+token: =
+line:421 25
+
+type:VARIABLE
+token: CHAR_CONSTANT
+line:421 39
+
+type:PUNCTUATOR
+token: ;
+line:422 1
+
+type:KEYWORD
+token: return
+line:422 18
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:422 21
+
+type:PUNCTUATOR
+token: ;
+line:423 1
+
+type:PUNCTUATOR
+token: }
+line:424 1
+
+type:VARIABLE
+token: token_buffer
+line:424 26
+
+type:PUNCTUATOR
+token: +=
+line:424 30
+
+type:VARIABLE
+token: c
+line:424 33
+
+type:PUNCTUATOR
+token: ;
+line:425 1
+
+type:KEYWORD
+token: return
+line:425 20
+
+type:INTEGER_CONSTANT
+token: 0
+line:425 23
+
+type:PUNCTUATOR
+token: ;
+line:426 1
+
+type:KEYWORD
+token: case
+line:427 14
+
+type:VARIABLE
+token: SPECIAL_CHARACTER
+line:427 33
+
+type:PUNCTUATOR
+token: :
+line:428 1
+
+type:KEYWORD
+token: if
+line:428 16
+
+type:PUNCTUATOR
+token: (
+line:428 19
+
+type:VARIABLE
+token: c
+line:428 21
+
+type:PUNCTUATOR
+token: ==
+line:428 25
+
+type:CHAR_CONSTANT
+token: '\''
+line:428 31
+
+type:PUNCTUATOR
+token: )
+line:429 1
+
+type:PUNCTUATOR
+token: {
+line:430 1
+
+type:VARIABLE
+token: token_buffer
+line:430 30
+
+type:PUNCTUATOR
+token: +=
+line:430 34
+
+type:VARIABLE
+token: c
+line:430 37
+
+type:PUNCTUATOR
+token: ;
+line:431 1
+
+type:VARIABLE
+token: dfa_status
+line:431 28
+
+type:PUNCTUATOR
+token: =
+line:431 31
+
+type:VARIABLE
+token: CHARACTER
+line:431 42
+
+type:PUNCTUATOR
+token: ;
+line:432 1
+
+type:KEYWORD
+token: return
+line:432 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:432 27
+
+type:PUNCTUATOR
+token: ;
+line:433 1
+
+type:PUNCTUATOR
+token: }
+line:434 1
+
+type:VARIABLE
+token: token_buffer
+line:434 26
+
+type:PUNCTUATOR
+token: +=
+line:434 30
+
+type:VARIABLE
+token: c
+line:434 33
+
+type:PUNCTUATOR
+token: ;
+line:435 1
+
+type:KEYWORD
+token: return
+line:435 20
+
+type:INTEGER_CONSTANT
+token: 0
+line:435 23
+
+type:PUNCTUATOR
+token: ;
+line:436 1
+
+type:KEYWORD
+token: case
+line:436 14
+
+type:VARIABLE
+token: STRING
+line:436 22
+
+type:PUNCTUATOR
+token: :
+line:437 1
+
+type:KEYWORD
+token: if
+line:437 16
+
+type:PUNCTUATOR
+token: (
+line:437 19
+
+type:VARIABLE
+token: c
+line:437 21
+
+type:PUNCTUATOR
+token: ==
+line:437 25
+
+type:CHAR_CONSTANT
+token: '\\'
+line:437 31
+
+type:PUNCTUATOR
+token: )
+line:438 1
+
+type:PUNCTUATOR
+token: {
+line:439 1
+
+type:VARIABLE
+token: token_buffer
+line:439 30
+
+type:PUNCTUATOR
+token: +=
+line:439 34
+
+type:VARIABLE
+token: c
+line:439 37
+
+type:PUNCTUATOR
+token: ;
+line:440 1
+
+type:VARIABLE
+token: dfa_status
+line:440 28
+
+type:PUNCTUATOR
+token: =
+line:440 31
+
+type:VARIABLE
+token: SPECIAL_STRING_CHARACTER
+line:440 57
+
+type:PUNCTUATOR
+token: ;
+line:441 1
+
+type:KEYWORD
+token: return
+line:441 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:441 27
+
+type:PUNCTUATOR
+token: ;
+line:442 1
+
+type:PUNCTUATOR
+token: }
+line:443 1
+
+type:KEYWORD
+token: if
+line:443 16
+
+type:PUNCTUATOR
+token: (
+line:443 19
+
+type:VARIABLE
+token: c
+line:443 21
+
+type:PUNCTUATOR
+token: ==
+line:443 25
+
+type:CHAR_CONSTANT
+token: '\"'
+line:443 31
+
+type:PUNCTUATOR
+token: )
+line:444 1
+
+type:PUNCTUATOR
+token: {
+line:445 1
+
+type:VARIABLE
+token: token_buffer
+line:445 30
+
+type:PUNCTUATOR
+token: +=
+line:445 34
+
+type:VARIABLE
+token: c
+line:445 37
+
+type:PUNCTUATOR
+token: ;
+line:446 1
+
+type:VARIABLE
+token: dfa_status
+line:446 28
+
+type:PUNCTUATOR
+token: =
+line:446 31
+
+type:VARIABLE
+token: STRING_END
+line:446 43
+
+type:PUNCTUATOR
+token: ;
+line:447 1
+
+type:KEYWORD
+token: return
+line:447 24
+
+type:INTEGER_CONSTANT
+token: 0
+line:447 27
+
+type:PUNCTUATOR
+token: ;
+line:448 1
+
+type:PUNCTUATOR
+token: }
+line:449 1
+
+type:VARIABLE
+token: token_buffer
+line:449 26
+
+type:PUNCTUATOR
+token: +=
+line:449 30
+
+type:VARIABLE
+token: c
+line:449 33
+
+type:PUNCTUATOR
+token: ;
+line:450 1
+
+type:KEYWORD
+token: return
+line:450 20
+
+type:INTEGER_CONSTANT
+token: 0
+line:450 23
+
+type:PUNCTUATOR
+token: ;
+line:451 1
+
+type:KEYWORD
+token: case
+line:451 14
+
+type:VARIABLE
+token: SPECIAL_STRING_CHARACTER
+line:451 40
+
+type:PUNCTUATOR
+token: :
+line:452 1
+
+type:VARIABLE
+token: token_buffer
+line:452 26
+
+type:PUNCTUATOR
+token: +=
+line:452 30
+
+type:VARIABLE
+token: c
+line:452 33
+
+type:PUNCTUATOR
+token: ;
+line:453 1
+
+type:VARIABLE
+token: dfa_status
+line:453 24
+
+type:PUNCTUATOR
+token: =
+line:453 27
+
+type:VARIABLE
+token: STRING
+line:453 35
+
+type:PUNCTUATOR
+token: ;
+line:454 1
+
+type:KEYWORD
+token: return
+line:454 20
+
+type:INTEGER_CONSTANT
+token: 0
+line:454 23
+
+type:PUNCTUATOR
+token: ;
+line:455 1
+
+type:KEYWORD
+token: case
+line:455 14
+
+type:VARIABLE
+token: STRING_END
+line:455 26
+
+type:PUNCTUATOR
+token: :
+line:456 1
+
+type:VARIABLE
+token: type_buffer
+line:456 25
+
+type:PUNCTUATOR
+token: =
+line:456 28
+
+type:VARIABLE
+token: STRING_CONSTANT
+line:456 45
+
+type:PUNCTUATOR
+token: ;
+line:457 1
+
+type:VARIABLE
+token: flow_back
+line:457 23
+
+type:PUNCTUATOR
+token: =
+line:457 26
+
+type:VARIABLE
+token: c
+line:457 29
+
+type:PUNCTUATOR
+token: ;
+line:458 1
+
+type:KEYWORD
+token: return
+line:458 20
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:458 23
+
+type:PUNCTUATOR
+token: ;
+line:459 1
+
+type:KEYWORD
+token: default
+line:459 17
+
+type:PUNCTUATOR
+token: :
+line:460 1
+
+type:KEYWORD
+token: break
+line:460 19
+
+type:PUNCTUATOR
+token: ;
+line:461 1
+
+type:PUNCTUATOR
+token: }
+line:462 1
+
+type:PUNCTUATOR
+token: }
+line:463 1
+
+type:KEYWORD
+token: int
+line:463 9
+
+type:VARIABLE
+token: GenerateToken
+line:463 24
+
+type:PUNCTUATOR
+token: (
+line:463 26
+
+type:VARIABLE
+token: Token
+line:463 32
+
+type:PUNCTUATOR
+token: *
+line:463 35
+
+type:VARIABLE
+token: token
+line:463 41
+
+type:PUNCTUATOR
+token: )
+line:464 1
+
+type:PUNCTUATOR
+token: {
+line:465 1
+
+type:VARIABLE
+token: token
+line:465 15
+
+type:PUNCTUATOR
+token: ->
+line:465 18
+
+type:VARIABLE
+token: GenerateToken
+line:465 32
+
+type:PUNCTUATOR
+token: (
+line:465 34
+
+type:VARIABLE
+token: type_buffer
+line:465 46
+
+type:PUNCTUATOR
+token: ,
+line:465 48
+
+type:VARIABLE
+token: token_buffer
+line:465 62
+
+type:PUNCTUATOR
+token: ,
+line:465 64
+
+type:VARIABLE
+token: extended_buffer
+line:465 81
+
+type:PUNCTUATOR
+token: )
+line:465 83
+
+type:PUNCTUATOR
+token: ;
+line:466 1
+
+type:PUNCTUATOR
+token: }
+line:467 1
+
+type:KEYWORD
+token: int
+line:467 9
+
+type:VARIABLE
+token: NextToken
+line:467 20
+
+type:PUNCTUATOR
+token: (
+line:467 22
+
+type:VARIABLE
+token: Token
+line:467 28
+
+type:PUNCTUATOR
+token: *
+line:467 31
+
+type:VARIABLE
+token: token
+line:467 37
+
+type:PUNCTUATOR
+token: )
+line:468 1
+
+type:PUNCTUATOR
+token: {
+line:469 1
+
+type:VARIABLE
+token: CleanTokenBuffer
+line:469 26
+
+type:PUNCTUATOR
+token: (
+line:469 28
+
+type:PUNCTUATOR
+token: )
+line:469 30
+
+type:PUNCTUATOR
+token: ;
+line:470 1
+
+type:KEYWORD
+token: char
+line:470 14
+
+type:VARIABLE
+token: c
+line:470 17
+
+type:PUNCTUATOR
+token: ;
+line:471 1
+
+type:KEYWORD
+token: if
+line:471 12
+
+type:PUNCTUATOR
+token: (
+line:471 15
+
+type:VARIABLE
+token: flow_back
+line:471 25
+
+type:PUNCTUATOR
+token: ==
+line:471 29
+
+type:INTEGER_CONSTANT
+token: 0
+line:471 32
+
+type:PUNCTUATOR
+token: )
+line:472 1
+
+type:VARIABLE
+token: c
+line:472 15
+
+type:PUNCTUATOR
+token: =
+line:472 18
+
+type:VARIABLE
+token: getchar
+line:472 27
+
+type:PUNCTUATOR
+token: (
+line:472 29
+
+type:PUNCTUATOR
+token: )
+line:472 31
+
+type:PUNCTUATOR
+token: ;
+line:473 1
+
+type:KEYWORD
+token: else
+line:474 1
+
+type:PUNCTUATOR
+token: {
+line:475 1
+
+type:VARIABLE
+token: c
+line:475 15
+
+type:PUNCTUATOR
+token: =
+line:475 18
+
+type:VARIABLE
+token: flow_back
+line:475 29
+
+type:PUNCTUATOR
+token: ;
+line:476 1
+
+type:VARIABLE
+token: flow_back
+line:476 23
+
+type:PUNCTUATOR
+token: =
+line:476 26
+
+type:INTEGER_CONSTANT
+token: 0
+line:476 29
+
+type:PUNCTUATOR
+token: ;
+line:477 1
+
+type:PUNCTUATOR
+token: }
+line:478 1
+
+type:KEYWORD
+token: if
+line:478 12
+
+type:PUNCTUATOR
+token: (
+line:478 14
+
+type:VARIABLE
+token: c
+line:478 16
+
+type:PUNCTUATOR
+token: ==
+line:478 19
+
+type:VARIABLE
+token: EOF
+line:478 23
+
+type:PUNCTUATOR
+token: )
+line:478 25
+
+type:KEYWORD
+token: return
+line:478 32
+
+type:INTEGER_CONSTANT
+token: 1
+extended information: INT
+line:478 35
+
+type:PUNCTUATOR
+token: ;
+line:479 1
+
+type:KEYWORD
+token: while
+line:479 15
+
+type:PUNCTUATOR
+token: (
+line:479 18
+
+type:VARIABLE
+token: ReceiveNextCharacter
+line:479 39
+
+type:PUNCTUATOR
+token: (
+line:479 41
+
+type:VARIABLE
+token: c
+line:479 43
+
+type:PUNCTUATOR
+token: )
+line:479 45
+
+type:PUNCTUATOR
+token: ==
+line:479 49
+
+type:INTEGER_CONSTANT
+token: 0
+line:479 52
+
+type:PUNCTUATOR
+token: )
+line:480 1
+
+type:PUNCTUATOR
+token: {
+line:481 1
+
+type:KEYWORD
+token: if
+line:481 13
+
+type:PUNCTUATOR
+token: (
+line:481 15
+
+type:VARIABLE
+token: c
+line:481 17
+
+type:PUNCTUATOR
+token: ==
+line:481 20
+
+type:CHAR_CONSTANT
+token: '\''
+line:481 25
+
+type:PUNCTUATOR
+token: )
+line:481 27
+
+type:PUNCTUATOR
+token: {
+line:482 1
+
+type:VARIABLE
+token: c
+line:482 13
+
+type:PUNCTUATOR
+token: ++
+line:482 16
+
+type:PUNCTUATOR
+token: ;
+line:483 1
+
+type:VARIABLE
+token: c
+line:483 13
+
+type:PUNCTUATOR
+token: --
+line:483 16
+
+type:PUNCTUATOR
+token: ;
+line:484 1
+
+type:PUNCTUATOR
+token: }
+line:485 1
+
+type:PUNCTUATOR
+token: /
+line:485 11
+
+type:PUNCTUATOR
+token: /
+line:485 13
+
+type:VARIABLE
+token: printf
+line:485 21
+
+type:PUNCTUATOR
+token: (
+line:485 23
+
+type:STRING_CONSTANT
+token: "%d\n"
+line:485 30
+
+type:PUNCTUATOR
+token: ,
+line:485 32
+
+type:VARIABLE
+token: trie_keyword
+line:485 45
+
+type:PUNCTUATOR
+token: )
+line:485 47
+
+type:PUNCTUATOR
+token: ;
+line:486 1
+
+type:VARIABLE
+token: c
+line:486 15
+
+type:PUNCTUATOR
+token: =
+line:486 18
+
+type:VARIABLE
+token: getchar
+line:486 27
+
+type:PUNCTUATOR
+token: (
+line:486 29
+
+type:PUNCTUATOR
+token: )
+line:486 31
+
+type:PUNCTUATOR
+token: ;
+line:487 1
+
+type:PUNCTUATOR
+token: }
+line:488 1
+
+type:VARIABLE
+token: GenerateToken
+line:488 23
+
+type:PUNCTUATOR
+token: (
+line:488 25
+
+type:VARIABLE
+token: token
+line:488 31
+
+type:PUNCTUATOR
+token: )
+line:488 33
+
+type:PUNCTUATOR
+token: ;
+line:489 1
+
+type:KEYWORD
+token: return
+line:489 16
+
+type:INTEGER_CONSTANT
+token: 0
+line:489 19
+
+type:PUNCTUATOR
+token: ;
+line:490 1
+
+type:PUNCTUATOR
+token: }
+line:491 1
+
+type:PUNCTUATOR
+token: }
+line:492 1
+
+type:KEYWORD
+token: int
+line:492 5
+
+type:VARIABLE
+token: main
+line:492 11
+
+type:PUNCTUATOR
+token: (
+line:492 13
+
+type:KEYWORD
+token: int
+line:492 17
+
+type:VARIABLE
+token: argc
+line:492 23
+
+type:PUNCTUATOR
+token: ,
+line:492 25
+
+type:KEYWORD
+token: char
+line:492 31
+
+type:PUNCTUATOR
+token: *
+line:492 34
+
+type:VARIABLE
+token: argv
+line:492 39
+
+type:PUNCTUATOR
+token: [
+line:492 41
+
+type:PUNCTUATOR
+token: ]
+line:492 43
+
+type:PUNCTUATOR
+token: )
+line:493 1
+
+type:PUNCTUATOR
+token: {
+line:494 1
+
+type:VARIABLE
+token: lexer
+line:494 11
+
+type:PUNCTUATOR
+token: :
+line:494 13
+
+type:PUNCTUATOR
+token: :
+line:494 15
+
+type:VARIABLE
+token: KeywordTriePrepare
+line:494 34
+
+type:PUNCTUATOR
+token: (
+line:494 36
+
+type:PUNCTUATOR
+token: )
+line:494 38
+
+type:PUNCTUATOR
+token: ;
+line:495 1
+
+type:VARIABLE
+token: lexer
+line:495 11
+
+type:PUNCTUATOR
+token: :
+line:495 13
+
+type:PUNCTUATOR
+token: :
+line:495 15
+
+type:VARIABLE
+token: PunctuatorTriePrepare
+line:495 37
+
+type:PUNCTUATOR
+token: (
+line:495 39
+
+type:PUNCTUATOR
+token: )
+line:495 41
+
+type:PUNCTUATOR
+token: ;
+line:496 1
+
+type:VARIABLE
+token: lexer
+line:496 11
+
+type:PUNCTUATOR
+token: :
+line:496 13
+
+type:PUNCTUATOR
+token: :
+line:496 15
+
+type:VARIABLE
+token: Token
+line:496 21
+
+type:PUNCTUATOR
+token: *
+line:496 24
+
+type:VARIABLE
+token: token
+line:496 30
+
+type:PUNCTUATOR
+token: =
+line:496 33
+
+type:VARIABLE
+token: new
+line:496 38
+
+type:VARIABLE
+token: lexer
+line:496 45
+
+type:PUNCTUATOR
+token: :
+line:496 47
+
+type:PUNCTUATOR
+token: :
+line:496 49
+
+type:VARIABLE
+token: Token
+line:496 55
+
+type:PUNCTUATOR
+token: (
+line:496 57
+
+type:PUNCTUATOR
+token: )
+line:496 59
+
+type:PUNCTUATOR
+token: ;
+line:497 1
+
+type:VARIABLE
+token: freopen
+line:497 13
+
+type:PUNCTUATOR
+token: (
+line:497 15
+
+type:STRING_CONSTANT
+token: "test3.in"
+line:497 26
+
+type:PUNCTUATOR
+token: ,
+line:497 28
+
+type:STRING_CONSTANT
+token: "r"
+line:497 33
+
+type:PUNCTUATOR
+token: ,
+line:497 35
+
+type:VARIABLE
+token: stdin
+line:497 42
+
+type:PUNCTUATOR
+token: )
+line:497 44
+
+type:PUNCTUATOR
+token: ;
+line:498 1
+
+type:KEYWORD
+token: while
+line:498 11
+
+type:PUNCTUATOR
+token: (
+line:498 14
+
+type:VARIABLE
+token: lexer
+line:498 20
+
+type:PUNCTUATOR
+token: :
+line:498 22
+
+type:PUNCTUATOR
+token: :
+line:498 24
+
+type:VARIABLE
+token: NextToken
+line:498 34
+
+type:PUNCTUATOR
+token: (
+line:498 36
+
+type:VARIABLE
+token: token
+line:498 42
+
+type:PUNCTUATOR
+token: )
+line:498 44
+
+type:PUNCTUATOR
+token: ==
+line:498 48
+
+type:INTEGER_CONSTANT
+token: 0
+line:498 51
+
+type:PUNCTUATOR
+token: )
+line:499 1
+
+type:PUNCTUATOR
+token: {
+line:500 1
+
+type:VARIABLE
+token: token
+line:500 15
+
+type:PUNCTUATOR
+token: ->
+line:500 18
+
+type:VARIABLE
+token: Show
+line:500 23
+
+type:PUNCTUATOR
+token: (
+line:500 25
+
+type:PUNCTUATOR
+token: )
+line:500 27
+
+type:PUNCTUATOR
+token: ;
+line:501 1
+
+type:PUNCTUATOR
+token: }
+line:502 1
+
+type:PUNCTUATOR
+token: }
+line:502 3
+

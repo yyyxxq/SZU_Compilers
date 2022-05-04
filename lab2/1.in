@@ -1,2 +1,6 @@
-S->Aa|Ab|a|b
-A->Sa|Sb|a|b
+S->aBC|aSBC
+aB->aB
+B->b
+CB->BC
+bC->bc
+cC->cc
